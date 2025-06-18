@@ -8,7 +8,7 @@ This folder contains utility scripts for processing and managing CoNLL-U formatt
 Script for converting TSV files generated from the tagging staff's internal spreadsheet into proper CoNLL-U format. This utility will help streamline the workflow from Google Sheets-based annotation to the standard CoNLL-U format required for the Universal Dependencies corpus.
 
 ### `replace_literal_unicode.py`
-Converts the output of the UD validation script from literal Unicode escape sequences (like `\u05D0`) into readable Hebrew characters. This is useful when debugging output that contains Unicode escape sequences instead of actual Hebrew characters.
+Converts the output of the UD validation script (see [below](#helpful-links)) from literal Unicode escape sequences (like `\u05D0`) into readable Hebrew characters. This is useful when debugging output that contains Unicode escape sequences instead of actual Hebrew characters.
 
 Usage:
 ```
@@ -41,3 +41,9 @@ python conllu_fixer2.py -i input_file -o output_file [-l log_file]
 ## Development Notes
 
 These scripts are part of the ERC-MiDRASH project's internal workflow for creating and maintaining the UD Hebrew-PostRab treebank. They are not intended for release as part of the final treebank but are maintained here for documentation and development purposes.
+
+## Helpful Links
+
+ - [Link-tree for contributing to UD resources](https://universaldependencies.org/contributing/index.html), most notably including:
+    - UD corpus [release checklist and guidelines](https://universaldependencies.org/contributing/repository_files.html).
+    - [Validation guidelines](https://universaldependencies.org/contributing/validation.html) and [validation script repo](https://github.com/UniversalDependencies/tools).
