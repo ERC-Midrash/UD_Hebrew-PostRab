@@ -16,7 +16,7 @@ python replace_literal_unicode.py input_file output_file
 ```
 
 ### `run_through_conllu.py`
-Performs a basic first-pass validation of CoNLL-U files using the Python CoNLL-U parsing library. This script checks for syntax errors and other issues in the CoNLL-U format, logging any errors it encounters.
+Performs a basic first-pass validation of CoNLL-U files using the Python CoNLL-U parsing library. This script checks for syntax errors and other issues in the CoNLL-U format, logging any errors it encounters. It returns an exit code of 0 if processing completed without errors, and a non-zero exit code if any errors were encountered, making it suitable for integration into automated pipelines.
 
 Usage:
 ```
@@ -32,6 +32,8 @@ This script processes CoNLL-U files to fix token IDs and ranges based on plus no
 1. Plus notation for token splitting (e.g., 10+1, 10+2)
 2. Skipped IDs for token unification
 3. Range adjustments for multi-word tokens
+
+The script returns an exit code of 0 if processing completed without errors, and a non-zero exit code if any errors were encountered, making it suitable for integration into automated pipelines.
 
 Usage:
 ```
