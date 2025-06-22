@@ -16,7 +16,7 @@ The conversion process bridges the gap between the collaborative annotation envi
 
 These are cases where the script should log an error:
 
-- If the ID field of any row doesn't satisfy the regex `\d+(?:-\d+)?`.
+- If the ID field of any row doesn't satisfy the regex `^\d+(?:\+\d+)?(?:-\d+(?:\+\d+)?)?$`.
 - If there is an empty field not in one of the cases indicated in the [normalization](#normalization) section below.
 
 ## Normalization - per-line changes
@@ -28,7 +28,7 @@ These are changes that the script should make automatically:
 - Remove any lines beginning with `# Included`.
 - Lines that are entirely whitespace should be made blank lines (but do not erase the line itself!).
 - There should never be more than one consecutive blank line.
-- Lines that begin with `#` should be stripped of trailing whitespace.
+- Lines that begin with `#` should never contain a tab character. If there is one, erase it and everything that comes after it.
 - Other non-empty lines - there should be exactly 10 tab separated fields, where only the MISC field is allowed to have a space char. In other words, each line (if it isn't empty or beginning with `#`) should match the regex `^(\S+\t){9}[\S ]+$`. If there is a tenth tab char, it and anything after it should be erased.
   - Note that there should never be two consecutive tab characters either - empty fields should be indicated by underscore. The script should make this replacement (`\t\t` -> `\t_\t`) automatically in the following cases:
     - In a range line (the first column, ID, satisfies regex `\d+-\d+`), for all fields other than ID and FORM.

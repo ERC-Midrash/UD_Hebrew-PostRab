@@ -11,7 +11,7 @@ import tempfile
 from pathlib import Path
 
 # Pre-compiled regex patterns for better performance
-ID_PATTERN = re.compile(r'^\d+(\+\d+)?(?:-\d+)?(\+\d+)?$')
+ID_PATTERN = re.compile(r'\d+(?:\+\d+)?(?:-\d+(?:\+\d+)?)?')
 RANGE_PATTERN = re.compile(r'^\d+(\+\d+)?-\d+(\+\d+)?$')
 HE_UNDERSCORE_PATTERN = re.compile(r'^[ה_]+$')
 
