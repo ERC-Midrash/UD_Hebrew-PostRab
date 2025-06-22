@@ -11,8 +11,8 @@ import tempfile
 from pathlib import Path
 
 # Pre-compiled regex patterns for better performance
-ID_PATTERN = re.compile(r'^\d+(?:-\d+)?$')
-RANGE_PATTERN = re.compile(r'^\d+-\d+$')
+ID_PATTERN = re.compile(r'^\d+(\+\d+)?(?:-\d+)?(\+\d+)?$')
+RANGE_PATTERN = re.compile(r'^\d+(\+\d+)?-\d+(\+\d+)?$')
 HE_UNDERSCORE_PATTERN = re.compile(r'^[ה_]+$')
 
 # Setup logging
@@ -61,13 +61,13 @@ def add_to_misc(misc, feature):
 
 def normalize_line(line):
     """Apply normalization rules to a single line"""
-    if not line.strip():
+    if (not line.strip()) or line.startswith('\t'):
         return '\n'  # Convert whitespace-only lines to blank lines
     
     if line.startswith('#'):
         if line.startswith('# Included'):
             return None  # Remove lines beginning with "# Included"
-        return line.rstrip() + '\n'  # Strip trailing whitespace for comment lines
+        return line.split("\t")[0].rstrip() + '\n'  # Strip trailing whitespace for comment lines
     
     fields = line.strip().split('\t')
     
@@ -123,6 +123,8 @@ def normalize_line(line):
 
 def normalize_file_content(content):
     """Apply all normalization rules to the file content"""
+    content = content.replace("\u200f", "")  # Remove RTL marks
+    content = content.replace("\u200e", "")  # Remove LTR marks
     lines = content.splitlines(True)  # Keep line endings
     
     # Remove header line if present
@@ -175,11 +177,13 @@ def convert_file(input_file, output_file, log_file=None):
         with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', suffix='.conllu', delete=False) as temp:
             temp_path = temp.name
             temp.write(normalized_content)
-        
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', suffix='.conllu', delete=False) as temp_out:
+            temp_output_path = temp_out.name
+
         try:
             # Run conllu_fixer2.py
             fixer_script = str(Path(__file__).parent / "CoNNLU-Fixing" / "conllu_fixer2.py")
-            fixer_args = ["-i", temp_path, "-o", temp_path]
+            fixer_args = ["-i", temp_path, "-o", temp_output_path]
             if log_file:
                 fixer_args.extend(["-l", log_file])
                 
@@ -187,7 +191,12 @@ def convert_file(input_file, output_file, log_file=None):
             if fixer_result != 0:
                 logger.error("conllu_fixer2.py returned an error. Stopping conversion process.")
                 return 1
+            try:
+                os.unlink(temp_path)
+            except Exception as e:
+                logger.warning(f"Failed to remove temporary file {temp_path}: {e}")
             
+            temp_path = temp_output_path
             # Run run_through_conllu.py
             validator_script = str(Path(__file__).parent / "run_through_conllu.py")
             validator_args = ["-i", temp_path]
