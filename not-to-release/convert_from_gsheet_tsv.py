@@ -6,13 +6,16 @@ import re
 import os
 import logging
 import sys
-import subprocess
 import tempfile
 from pathlib import Path
 
+# Import functions from other scripts
+from run_through_conllu import validate_conllu_file
+from CoNNLU_Fixing.conllu_fixer2 import process_conllu_file as fix_conllu_file
+
 # Pre-compiled regex patterns for better performance
-ID_PATTERN = re.compile(r'\d+(?:\+\d+)?(?:-\d+(?:\+\d+)?)?')
-RANGE_PATTERN = re.compile(r'^\d+(\+\d+)?-\d+(\+\d+)?$')
+ID_PATTERN = re.compile(r'^\d+(?:\+\d+)?(?:-\d+(?:\+\d+)?)?$')
+RANGE_PATTERN = re.compile(r'^\d+-\d+$')
 HE_UNDERSCORE_PATTERN = re.compile(r'^[ה_]+$')
 
 # Setup logging
@@ -23,8 +26,13 @@ def setup_logger(log_file=None):
     logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(levelname)s: %(message)s')
     
+    # Clear existing handlers
+    for handler in logger.handlers[:]:
+        logger.removeHandler(handler)
+    
     if log_file:
-        file_handler = logging.FileHandler(log_file, 'w', 'utf-8')
+        # Use 'w' mode and explicitly set encoding without BOM
+        file_handler = logging.FileHandler(log_file, mode='w', encoding='utf-8')
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
     else:
@@ -61,13 +69,14 @@ def add_to_misc(misc, feature):
 
 def normalize_line(line):
     """Apply normalization rules to a single line"""
-    if (not line.strip()) or line.startswith('\t'):
+    if not line.strip():
         return '\n'  # Convert whitespace-only lines to blank lines
     
     if line.startswith('#'):
         if line.startswith('# Included'):
             return None  # Remove lines beginning with "# Included"
-        return line.split("\t")[0].rstrip() + '\n'  # Strip trailing whitespace for comment lines
+        
+        return line.rstrip().split('\t')[0] + '\n'  # Strip trailing whitespace for comment lines, get rid of anything after first tab
     
     fields = line.strip().split('\t')
     
@@ -149,63 +158,40 @@ def normalize_file_content(content):
     
     return ''.join(normalized_lines)
 
-def run_external_script(script_path, args):
-    """Run an external script and return its exit code"""
-    cmd = [sys.executable, script_path] + args
-    logger.info(f"Running: {' '.join(cmd)}")
-    
-    process = subprocess.run(cmd, capture_output=True, text=True)
-    
-    if process.stdout:
-        logger.info(process.stdout)
-    if process.stderr:
-        logger.error(process.stderr)
-        
-    return process.returncode
-
 def convert_file(input_file, output_file, log_file=None):
     """Convert Google Sheets TSV to CoNLL-U format"""
     try:
-        # Read input file
-        with open(input_file, 'r', encoding='utf-8') as f:
+        # Read input file with explicit encoding
+        with open(input_file, 'r', encoding='utf-8', errors='replace') as f:
             content = f.read()
         
         # Normalize content
         normalized_content = normalize_file_content(content)
         
-        # Write to temporary file for processing with external scripts
+        # Write to temporary file for processing
         with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', suffix='.conllu', delete=False) as temp:
             temp_path = temp.name
             temp.write(normalized_content)
-        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', suffix='.conllu', delete=False) as temp_out:
-            temp_output_path = temp_out.name
-
+        
         try:
-            # Run conllu_fixer2.py
-            fixer_script = str(Path(__file__).parent / "CoNNLU-Fixing" / "conllu_fixer2.py")
-            fixer_args = ["-i", temp_path, "-o", temp_output_path]
-            if log_file:
-                fixer_args.extend(["-l", log_file])
-                
-            fixer_result = run_external_script(fixer_script, fixer_args)
-            if fixer_result != 0:
-                logger.error("conllu_fixer2.py returned an error. Stopping conversion process.")
-                return 1
+            # Run conllu_fixer directly
+            temp_output_path = temp_path + ".fixed"
             try:
-                os.unlink(temp_path)
+                fix_conllu_file(temp_path, temp_output_path, log_file)
+                # Replace the temp file with the fixed version
+                os.replace(temp_output_path, temp_path)
             except Exception as e:
-                logger.warning(f"Failed to remove temporary file {temp_path}: {e}")
+                logger.error(f"Error during CoNLL-U fixing: {e}")
+                return 1
             
-            temp_path = temp_output_path
-            # Run run_through_conllu.py
-            validator_script = str(Path(__file__).parent / "run_through_conllu.py")
-            validator_args = ["-i", temp_path]
-            if log_file:
-                validator_args.extend(["-l", log_file])
-                
-            validator_result = run_external_script(validator_script, validator_args)
-            if validator_result != 0:
-                logger.error("run_through_conllu.py found errors. Stopping conversion process.")
+            # Run validation directly
+            try:
+                validation_success = validate_conllu_file(temp_path, log_file)
+                if not validation_success:
+                    logger.error("CoNLL-U validation found errors. Stopping conversion process.")
+                    return 1
+            except Exception as e:
+                logger.error(f"Error during CoNLL-U validation: {e}")
                 return 1
             
             # Read the processed content back
@@ -220,11 +206,14 @@ def convert_file(input_file, output_file, log_file=None):
             return 0
             
         finally:
-            # Clean up temp file
+            # Clean up temp files
             try:
-                os.unlink(temp_path)
+                if os.path.exists(temp_path):
+                    os.unlink(temp_path)
+                if os.path.exists(temp_output_path):
+                    os.unlink(temp_output_path)
             except Exception as e:
-                logger.warning(f"Failed to remove temporary file {temp_path}: {e}")
+                logger.warning(f"Failed to remove temporary file(s): {e}")
     
     except Exception as e:
         logger.error(f"Error during conversion: {e}")

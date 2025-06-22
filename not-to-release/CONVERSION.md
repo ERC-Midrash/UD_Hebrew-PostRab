@@ -26,6 +26,7 @@ These are changes that the script should make automatically:
 - In the FORM column, any string consisting only and exactly of a single `ה` and at least one underscore character (in any order - meaning, `_+ה|ה_+|_+ה_+` in regex, but there should be a simple non-regex way to implement it) should be replaced by `ה_` (he followed by a single underscore).
 - Ensure that in any row in which the FORM column has either `_של_` or `ה_`, the MISC column has `PhantomToken=Yes`.
 - Remove any lines beginning with `# Included`.
+- Remove any Unicode RTL (Right-to-Left) and LTR (Left-to-Right) marks from all fields (characters U+200E, U+200F, and similar directional control characters).
 - Lines that are entirely whitespace should be made blank lines (but do not erase the line itself!).
 - There should never be more than one consecutive blank line.
 - Lines that begin with `#` should never contain a tab character. If there is one, erase it and everything that comes after it.
@@ -39,12 +40,12 @@ These are changes that the script should make automatically:
 
 ## Scripts to call at the end
 
-After the [checks](#checks) and [normalization](#normalization---per-line-changes) has been implemented, and any header line has been deleted, the resulting file should be run through these scripts (in this order). The other file-conversion steps can wait till after.
+After the [checks](#checks) and [normalization](#normalization---per-line-changes) has been implemented, and any header line has been deleted, the resulting file should be processed through these components (in this order). The other file-conversion steps can wait till after.
 
-- The [CoNNL-U fixer](CoNNLU-Fixing\conllu_fixer2.py). Once this is done, continue only if it runs without error (returns error code 0).
-  - Usage: `conllu_fixer2.py [-h] [-i INPUT] [-o OUTPUT] [-l LOG]`
-- The [run-through-CoNNL-U script](run_through_conllu.py).
-  - Usage: `run_through_conllu.py [-h] [-i INPUT_FILE] [-l LOG_FILE]`
+- The [CoNNL-U fixer](CoNNLU-Fixing\conllu_fixer2.py) functionality to handle plus notation and token IDs. Processing continues only if this step completes without errors.
+- The [run-through-CoNNL-U](run_through_conllu.py) validation to verify the file is properly formatted according to the CoNLL-U standard.
+
+The conversion script directly imports and calls these components rather than executing them as separate processes, which improves efficiency and error handling.
 
 # Reference - CoNLL-U format
 
