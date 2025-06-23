@@ -58,6 +58,8 @@ python conllu_fixer2.py -i input_file -o output_file [-l log_file]
 
 These scripts are part of the ERC-MiDRASH project's internal workflow for creating and maintaining the UD Hebrew-PostRab treebank. They are not intended for release as part of the final treebank but are maintained here for documentation and development purposes.
 
+If you create an `Outputs` subdirectory in this folder for temporary script outputs, it will be included in `.gitignore` and won't be committed to the repository.
+
 ## Helpful Links
 
 - [Link-tree for contributing to UD resources](https://universaldependencies.org/contributing/index.html), most notably including:
