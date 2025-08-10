@@ -80,7 +80,7 @@
 1	אוכל	אוכל	NOUN	NOUN	Gender=Masc|Number=Sing	8	dislocated	_	_
 2	מתוך	מתוך	ADP	ADP	_	3	case	_	_
 3	פסולת	פסולת	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
-4	אין	אין	VERB	VERB	_	8	advmod	_	_
+4	אין	אין	ADV	ADV	_	8	advmod	_	_
 5	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj:cop	_	_
 6	ברירה	ברירה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
 7-8	בכך	_	_	_	_	_	_	_	_
@@ -224,7 +224,7 @@
 8	ב	ב	ADP	ADP	_	9	case	_	_
 9	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
 10-11	הנוגע	_	_	_	_	_	_	_	_
-10	ה	ה	DET	DET	_	11	mark	_	_
+10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
 11	נוגע	נגע	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	9	acl:relcl	_	_
 12-13	לקולא	_	_	_	_	_	_	_	_
 12	ל	ל	ADP	ADP	_	13	case	_	_
@@ -308,7 +308,7 @@
 7	פנחס	פנחס	PROPN	PROPN	Gender=Masc|Number=Sing	5	obl	_	_
 8-9	שאין	_	_	_	_	_	_	_	_
 8	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
-9	אין	אין	VERB	VERB	_	12	advmod	_	_
+9	אין	אין	ADV	ADV	_	12	advmod	_	_
 10-11	העולם	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	_	11	det	_	_
 11	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -326,7 +326,7 @@
 2	ה	ה	DET	DET	_	3	det	_	_
 3	תורה	תורה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj:cop	_	_
 4-5	כלה	_	_	_	_	_	_	_	_
-4	כל_	כל	NOUN	NOUN	_	5	det	_	_
+4	כל_	כל	DET	DET	_	5	det	_	_
 5	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing	3	appos	_	_
 6	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 7-8	שנאמר	_	_	_	_	_	_	_	_
@@ -340,7 +340,7 @@
 13	נעם	נעם	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
 14-15	וכל	_	_	_	_	_	_	_	_
 14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
-15	כל	כל	NOUN	NOUN	_	16	det	_	_
+15	כל	כל	DET	DET	_	16	det	_	_
 16-18	נתיבותיה	_	_	_	_	_	_	_	_
 16	נתיבות	נתיבה	NOUN	NOUN	Gender=Fem|Number=Plur	19	nsubj:cop	_	_
 17	_של_	של	ADP	ADP	_	18	case	_	PhantomToken=Yes
@@ -685,7 +685,7 @@
 # sent_id = 25
 # source = MiscCollection
 # text = אפילו אם אוכל עם אחרים שמברכין לא יענה אחריהם אמן ופטור מכל המצוות האמורות בתורה
-1	אפילו	אפילו	SCONJ	SCONJ	_	3	advmod	_	_
+1	אפילו	אפילו	ADV	ADV	_	3	advmod	_	_
 2	אם	אם	SCONJ	SCONJ	_	3	mark	_	_
 3	אוכל	אכל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	9	advcl	_	_
 4	עם	עם	ADP	ADP	_	5	case	_	_
@@ -721,7 +721,7 @@
 # text = ואפילו אם אינו צריך לעסוק בצרכי המת כגון שיש לו אחרים שעוסקים בשבילו ואפילו אם ירצה להחמיר על עצמו ולברך או לענות אחר המברכים אינו רשאי
 1-2	ואפילו	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
-2	אפילו	אפילו	SCONJ	SCONJ	_	6	conj	_	_
+2	אפילו	אפילו	ADV	ADV	_	6	advmod	_	_
 3	אם	אם	SCONJ	SCONJ	_	6	mark	_	_
 4-5	אינו	_	_	_	_	_	_	_	_
 4	אין_	אין	ADV	ADV	Gender=Masc|Number=Sing|Person=3	6	advmod	_	_
@@ -829,7 +829,7 @@
 2-3	להיות	_	_	_	_	_	_	_	_
 2	ל	ל	ADP	ADP	_	3	case	_	_
 3	היות	היה	VERB	VERB	VerbForm=Inf	51	csubj	_	_
-4	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	3	nsubj	_	_
 5-6	מעמי	_	_	_	_	_	_	_	_
 5	מ	מ	ADP	ADP	_	6	case	_	_
 6	עמי	עם	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	_
@@ -837,7 +837,7 @@
 7	ה	ה	DET	DET	_	8	det	_	_
 8	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
 9-10	הסוברים	_	_	_	_	_	_	_	_
-9	ה	ה	DET	DET	_	10	mark	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
 10	סוברים	סבר	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|VerbForm=Part	4	acl:relcl	_	_
 11	כמו	כמו	ADP	ADP	Gender=Masc|Number=Sing	13	mark	_	_
 12-13	שאמרו	_	_	_	_	_	_	_	_
@@ -1101,47 +1101,47 @@
 2	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 3	קרא	קרא	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
 4-6	דמסברא	_	_	_	_	_	_	_	_
-4	ד	ד	SCONJ	SCONJ	_	6	case:gen	_	_
+4	ד	ד	SCONJ	SCONJ	_	7	mark	_	_
 5	מ	מ	ADP	ADP	_	6	case	_	_
-6	סברא	סברא	NOUN	NOUN	Gender=Masc|Number=Sing	7	advmod	_	_
+6	סברא	סברא	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
 7	ידעינן	ידע	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=1	2	advcl	_	_
 8-9	דבישול	_	_	_	_	_	_	_	_
 8	ד	ד	SCONJ	SCONJ	_	10	mark	_	_
 9	בישול	בישול	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
-10	מבטל	ביטל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	7	advcl	_	_
+10	מבטל	ביטל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	7	ccomp	_	_
 11-12	הצליה	_	_	_	_	_	_	_	_
 11	ה	ה	DET	DET	_	12	det	_	_
 12	צליה	צלייה	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
 13-15	כדאמר	_	_	_	_	_	_	_	_
 13	כ	כ	ADP	ADP	_	15	case	_	_
 14	ד	ד	SCONJ	SCONJ	_	15	mark	_	_
-15	אמר	אמר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	10	ccomp	_	_
+15	אמר	אמר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	7	advcl	_	_
 16	רבי	רבי	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
 17	יוסי	יוסי	PROPN	PROPN	Gender=Masc|Number=Sing	16	flat	_	_
-18	גבי	גבי	ADP	ADP	_	15	case	_	_
-19	מצה	מצה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+18	גבי	גבי	ADP	ADP	_	19	case	_	_
+19	מצה	מצה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
 
 # sent_id = 35
 # source = MiscCollection
 # text = ויש לומר דרב כהנא סבר דרבי יוסי יליף מבשל מבושל דבישול מבטל אפייה
 1-2	ויש	_	_	_	_	_	_	_	_
-1	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
-2	יש	יש	AUX	AUX	_	3	aux	_	_
-3	לומר	אמר	VERB	VERB	VerbForm=Inf	0	root	_	_
+1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
+2	יש	יש	AUX	AUX	_	0	root	_	_
+3	לומר	אמר	VERB	VERB	VerbForm=Inf	2	csubj	_	_
 4-5	דרב	_	_	_	_	_	_	_	_
 4	ד	ד	SCONJ	SCONJ	_	7	mark	_	_
 5	רב	רב	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	כהנא	כהנא	PROPN	PROPN	Gender=Masc|Number=Sing	5	flat	_	_
-7	סבר	סבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	advcl	_	_
+7	סבר	סבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	ccomp	_	_
 8-9	דרבי	_	_	_	_	_	_	_	_
 8	ד	ד	SCONJ	SCONJ	_	11	mark	_	_
 9	רבי	רבי	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
 10	יוסי	יוסי	PROPN	PROPN	Gender=Masc|Number=Sing	9	flat	_	_
-11	יליף	ילף	VERB	VERB	Gender=Masc|Number=Sing|Person=3	7	advcl	_	_
+11	יליף	ילף	VERB	VERB	Gender=Masc|Number=Sing|Person=3	7	ccomp	_	_
 12-13	מבשל	_	_	_	_	_	_	_	_
 12	מ	מ	ADP	ADP	_	13	case	_	_
-13	בשל	בשל	VERB	VERB	Gender=Masc|Number=Sing	14	case	_	_
-14	מבושל	בושל	VERB	VERB	Gender=Masc|Number=Sing	11	parataxis	_	_
+13	בשל	בשל	VERB	VERB	Gender=Masc|Number=Sing	11	obl:cite	_	_
+14	מבושל	בושל	VERB	VERB	Gender=Masc|Number=Sing	13	compound:redup	_	_
 15-16	דבישול	_	_	_	_	_	_	_	_
 15	ד	ד	SCONJ	SCONJ	_	17	mark	_	_
 16	בישול	בישול	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -1157,7 +1157,7 @@
 3	אנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1	4	nsubj	_	_
 4	בקיאים	בקיא	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
 5	אם	אם	SCONJ	SCONJ	_	10	mark	_	_
-6	גם	גם	ADV	ADV	_	8	mark	_	_
+6	גם	גם	ADV	ADV	_	10	advmod	_	_
 7-8	בכלי	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	כלי	כלי	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
@@ -1165,8 +1165,8 @@
 10	מתבשל	התבשל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	4	ccomp	_	_
 11-12	שהרי	_	_	_	_	_	_	_	_
 11	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
-12	הרי	הרי	ADV	ADV	_	13	mark	_	_
-13	נחלקו	נחלק	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	10	advcl	_	_
+12	הרי	הרי	ADV	ADV	_	11	fixed	_	_
+13	נחלקו	נחלק	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	4	advcl	_	_
 14	חכמים	חכם	NOUN	NOUN	Gender=Masc|Number=Plur	13	nsubj	_	_
 15-16	בדבר	_	_	_	_	_	_	_	_
 15	ב	ב	ADP	ADP	_	16	case	_	_
@@ -1188,20 +1188,20 @@
 5-6	שלא	_	_	_	_	_	_	_	_
 5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
 6	לא	לא	AUX	AUX	_	7	advmod	_	_
-7	ליתן	נתן	VERB	VERB	VerbForm=Inf	4	ccomp	_	_
+7	ליתן	נתן	VERB	VERB	VerbForm=Inf	3	ccomp	_	_
 8	פת	פת	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
-9	אפילו	אפילו	ADV	ADV	_	11	mark	_	_
+9	אפילו	אפילו	ADV	ADV	_	11	advmod	_	_
 10-11	בכלי	_	_	_	_	_	_	_	_
 10	ב	ב	ADP	ADP	_	11	case	_	_
 11	כלי	כלי	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
 12	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
 13	כל	כל	DET	DET	_	14	det	_	_
-14	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	7	advcl	_	_
+14	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl:unmarked	_	_
 15-17	שהיד	_	_	_	_	_	_	_	_
 15	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
 16	ה	ה	DET	DET	_	17	det	_	_
 17	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
-18	סולדת	סלד	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part	14	acl	_	_
+18	סולדת	סלד	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part	14	acl:relcl	_	_
 19-20	בו	_	_	_	_	_	_	_	_
 19	ב_	ב	ADP	ADP	_	20	case	_	_
 20	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	18	obl	_	_
@@ -1733,16 +1733,16 @@
 28	אלהות	אלוהות	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
 29	תלמוד	תלמוד	NOUN	NOUN	Gender=Masc|Number=Sing	32	advcl	_	_
 30	לומר	אמר	VERB	VERB	VerbForm=Inf	29	fixed	_	_
-31	לא	לא	ADV	ADV	_	32	flat	_	_
+31	לא	לא	ADV	ADV	_	32	advmod	_	_
 32	יהיה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	23	ccomp	_	_
 33-34	לך	_	_	_	_	_	_	_	_
 33	ל_	ל	ADP	ADP	_	34	case	_	_
-34	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2	32	flat	_	_
-35	אלקים	אלוקים	NOUN	NOUN	Gender=Masc|Number=Plur	33	flat	_	_
-36	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	35	flat	_	_
-37	על	על	ADP	ADP	_	36	flat	_	_
+34	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2	32	obl	_	NSent=Yes
+35	אלקים	אלוקים	NOUN	NOUN	Gender=Masc|Number=Plur	32	nsubj:cop	_	_
+36	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	35	amod	_	_
+37	על	על	ADP	ADP	_	38	case	_	_
 38-40	פני	_	_	_	_	_	_	_	_
-38	פנים_	פנים	NOUN	NOUN	Gender=Masc	37	flat	_	_
+38	פנים_	פנים	NOUN	NOUN	Gender=Masc	32	obl	_	_
 39	_של_	של	ADP	ADP	_	40	case	_	PhantomToken=Yes
 40	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	38	nmod:poss	_	_
 
@@ -1755,14 +1755,12 @@
 3	את_	את	ADP	ADP	_	4	case	_	_
 4	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	5	det	_	_
 5	אמצעיים	אמצעי	ADJ	ADJ	Gender=Masc|Number=Plur	2	obj	_	_
-6	בין	בין	ADP	ADP	_	8	case	_	_
-7-8	השם	_	_	_	_	_	_	_	_
-7	ה	ה	DET	DET	_	8	mark	_	_
-8	שם	שם	NOUN	NOUN	Number=Sing	2	obl	_	_
-9-11	ובינינו	_	_	_	_	_	_	_	_
-9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
-10	בין_	בין	ADP	ADP	_	11	case	_	_
-11	_אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1	8	conj	_	_
+6	בין	בין	ADP	ADP	_	7	case	_	_
+7	השם	השם	PROPN	PROPN	_	2	obl	_	_
+8-10	ובינינו	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	בין_	בין	ADP	ADP	_	10	case	_	_
+10	_אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1	7	conj	_	_
 
 # sent_id = 53
 # source = MiscCollection
@@ -2298,8 +2296,8 @@
 2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 3	פשוט	פשוט	ADJ	ADJ	_	0	root	_	_
 4-5	דאפילו	_	_	_	_	_	_	_	_
-4	ד	ד	SCONJ	SCONJ	_	7	mark	_	_
-5	אפילו	אפילו	ADV	ADV	_	7	mark	_	_
+4	ד	ד	SCONJ	SCONJ	_	11	mark	_	_
+5	אפילו	אפילו	ADV	ADV	_	7	advmod	_	_
 6-7	הריקנים	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	_	7	det	_	_
 7	ריקנים	ריקן	ADJ	ADJ	Gender=Masc|Number=Plur	11	nsubj	_	_
@@ -3995,14 +3993,14 @@
 1	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
 2	אם	אם	SCONJ	SCONJ	_	3	mark	_	_
 3	יש	יש	VERB	VERB	_	19	advcl	_	_
-4	חלוקות	חלוקה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+4	חלוקות	חלוקה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj:cop	_	_
 5	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	4	amod	_	_
 6-7	ואופנים	_	_	_	_	_	_	_	_
 6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
 7	אופנים	אופן	NOUN	NOUN	Gender=Masc|Number=Plur	4	conj	_	_
 8	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
 9	אשר	אשר	SCONJ	SCONJ	_	10	mark	_	_
-10	ראיתי	ראה	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	7	acl:relcl	_	_
+10	ראיתי	ראה	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	4	acl:relcl	_	_
 11-12	לאנשי	_	_	_	_	_	_	_	_
 11	ל	ל	ADP	ADP	_	12	case	_	_
 12	אנשי	איש	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
@@ -4011,12 +4009,12 @@
 14	ה	ה	DET	DET	_	15	det	_	_
 15	מלאכה	מלאכה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
 16-17	מכל	_	_	_	_	_	_	_	_
-16	מ	מ	ADP	ADP	_	17	case	_	_
-17	כל	כל	DET	DET	_	19	obl	_	_
-18	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	17	fixed	_	_
+16	מ	מ	ADP	ADP	_	18	case	_	_
+17	כל	כל	DET	DET	_	18	det	_	_
+18	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
 19	נטיתי	נטה	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	0	root	_	_
 20-22	לבי	_	_	_	_	_	_	_	_
-20	בי_	לב	NOUN	NOUN	Gender=Masc|Number=Sing	19	obj	_	_
+20	לב_	לב	NOUN	NOUN	Gender=Masc|Number=Sing	19	obj	_	_
 21	_של_	של	ADP	ADP	_	22	case	_	PhantomToken=Yes
 22	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	20	nmod:poss	_	_
 23	ללכת	הלך	VERB	VERB	VerbForm=Inf	19	xcomp	_	_
@@ -4025,7 +4023,7 @@
 26	טולומאו	טולומאו	PROPN	PROPN	Gender=Masc	25	compound:smixut	_	_
 27-30	וציוריו	_	_	_	_	_	_	_	_
 27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
-28	ציור_	ציור	NOUN	NOUN	Gender=Masc|Number=Plur	26	conj	_	_
+28	ציורים_	ציור	NOUN	NOUN	Gender=Masc|Number=Plur	26	conj	_	_
 29	_של_	של	ADP	ADP	_	30	case	_	PhantomToken=Yes
 30	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	28	nmod:poss	_	_
 31-33	להיותו	_	_	_	_	_	_	_	_
@@ -12037,7 +12035,7 @@
 37	כדי	כדי	CCONJ	CCONJ	VerbForm=Inf	38	mark	_	_
 38	להתפלל	התפלל	VERB	VERB	VerbForm=Inf	34	advcl	_	_
 39-40	בי'	_	_	_	_	_	_	_	_
-39	ב_	ב	ADP	ADP	_	40	case	_	_
+39	ב	ב	ADP	ADP	_	40	case	_	_
 40	י'	י	NUM	NUM	_	38	obl	_	_
 
 # sent_id = 320
@@ -12422,7 +12420,7 @@
 10-11	ושם	_	_	_	_	_	_	_	_
 10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
 11	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj:push	_	_
-12	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
+12	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
 13-14	ביהודה	_	_	_	_	_	_	_	_
 13	ב	ב	ADP	ADP	_	14	case	_	_
 14	יהודה	יהודה	PROPN	PROPN	_	3	obl	_	NSent=Yes
@@ -12564,7 +12562,7 @@
 21	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	19	nmod:poss	_	_
 22-25	ויכירוהו	_	_	_	_	_	_	_	_
 22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
-23	יכיר_	הכיר	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Fut	16	conj	_	_
+23	יכירו_	הכיר	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Fut	16	conj	_	_
 24	_את_	את	ADP	ADP	_	25	case	_	PhantomToken=Yes
 25	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	23	obj	_	_
 26-27	בשעת	_	_	_	_	_	_	_	_
@@ -12878,9 +12876,9 @@
 41	גט	גט	NOUN	NOUN	Gender=Masc|Number=Sing	39	nsubj	_	_
 42-45	לידה	_	_	_	_	_	_	_	_
 42	ל	ל	ADP	ADP	_	43	case	_	_
-43	יד_	יד	ADP	ADP	Gender=Fem|Number=Sing	45	case	_	_
+43	יד_	יד	ADP	ADP	Gender=Fem|Number=Sing	45	obl	_	_
 44	_של_	של	ADP	ADP	_	45	case	_	PhantomToken=Yes
-45	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	39	obl	_	_
+45	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	39	nmod:poss	_	_
 
 # sent_id = 313
 # source = שולחן_ערוך
@@ -13248,7 +13246,7 @@
 67	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	65	nmod:poss	_	_
 68	אף	אף	ADV	ADV	_	74	mark	_	_
 69	על	על	ADP	ADP	_	68	fixed	_	_
-70	פי	פה	NOUN	NOUN	_	69	fixed	_	_
+70	פי	פה	NOUN	NOUN	_	68	fixed	_	_
 71-73	שהבעל	_	_	_	_	_	_	_	_
 71	ש	ש	SCONJ	SCONJ	_	74	mark	_	_
 72	ה	ה	DET	DET	_	73	det	_	_
@@ -13576,7 +13574,7 @@
 46-48	והמשלח	_	_	_	_	_	_	_	_
 46	ו	ו	CCONJ	CCONJ	_	49	cc	_	_
 47	ה	ה	DET	DET	_	48	det	_	_
-48	משלח	משלח	NOUN	NOUN	Gender=Masc|Number=Sing	49	nsubj	_	_
+48	משלח	משלח	NOUN	NOUN	Gender=Masc|Number=Sing	50	nsubj	_	_
 49	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	50	aux	_	_
 50	לחזור	חזר	VERB	VERB	VerbForm=Inf	45	conj	_	_
 51-52	בו	_	_	_	_	_	_	_	_
