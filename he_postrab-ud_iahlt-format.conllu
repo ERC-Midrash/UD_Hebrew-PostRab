@@ -14,8 +14,6 @@
 8	כ	כ	ADP	ADP	_	9	case	_	_
 9	גרוגרת	גרוגרת	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
 
-
-
 # sent_id = 2
 # source = MiscCollection
 # text = וכן מסתבר כיון דבאוכלין הוי חשוב כגרוגרת אם כן האוכל בעצמו צריך להיות כגרוגרת
@@ -44,8 +42,6 @@
 19-20	כגרוגרת	_	_	_	_	_	_	_	_
 19	כ	כ	ADP	ADP	_	20	case	_	_
 20	גרוגרת	גרוגרת	NOUN	NOUN	Gender=Fem|Number=Sing	18	xcomp	_	_
-
-
 
 # sent_id = 3
 # source = MiscCollection
@@ -78,8 +74,6 @@
 20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
 21	מבטל	ביטל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3	19	conj	_	_
 
-
-
 # sent_id = 4
 # source = MiscCollection
 # text = אוכל מתוך פסולת אין דרך ברירה בכך
@@ -92,8 +86,6 @@
 7-8	בכך	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	כך	כך	PRON	PRON	_	0	root	_	_
-
-
 
 # sent_id = 5
 # source = MiscCollection
@@ -154,8 +146,6 @@
 40	ה	ה	DET	DET	_	41	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 41	קללה	קללה	NOUN	NOUN	Gender=Fem|Number=Sing	37	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 6
 # source = MiscCollection
 # text = הרמ"א בסימן שי"ח כתב דנהגו להקל לסמוך אצל המדורה אם לא נצטנן לגמרי
@@ -180,8 +170,6 @@
 15	לא	לא	ADV	ADV	_	16	advmod	_	_
 16	נצטנן	הצטנן	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	10	advcl	_	_
 17	לגמרי	לגמרי	ADV	ADV	_	16	advmod	_	_
-
-
 
 # sent_id = 7
 # source = MiscCollection
@@ -218,8 +206,6 @@
 23	מי	מים	NOUN	NOUN	Gender=Masc|Number=Plur	22	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 24	תמצית	תמצית	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 8
 # source = MiscCollection
 # text = אין לסמוך לומר עליהם דין מעיין במקום הנוגע לקולא כמבואר
@@ -243,8 +229,6 @@
 14-15	כמבואר	_	_	_	_	_	_	_	IndexChanged=Yes
 14	כ	כ	ADP	ADP	Definite=Def	15	case	_	PhantomRemoved=Yes|DepHeadChanged=Yes
 15	מבואר	בואר	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	1	obl	_	IndexChanged=Yes
-
-
 
 # sent_id = 9
 # source = MiscCollection
@@ -302,8 +286,6 @@
 37	עזרת	עזרה	NOUN	NOUN	Gender=Fem|Number=Sing	35	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 38	ה'	ה'	PROPN	PROPN	Number=Sing	37	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 10
 # source = MiscCollection
 # text = גדול השלום שנתן לפנחס שאין העולם מתנהג אלא בשלום
@@ -328,8 +310,6 @@
 14-15	בשלום	_	_	_	_	_	_	_	_
 14	ב	ב	ADP	ADP	_	15	case	_	_
 15	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
-
-
 
 # sent_id = 11
 # source = MiscCollection
@@ -358,8 +338,6 @@
 16	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	15	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 17	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	11	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 12
 # source = MiscCollection
 # text = ואם בא אדם מן הדרך שואלין לו שלום
@@ -377,8 +355,6 @@
 9	ל	ל	ADP	ADP	_	10	case	_	SegModified=Yes
 10	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	8	obl	_	_
 11	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
-
-
 
 # sent_id = 13
 # source = MiscCollection
@@ -407,8 +383,6 @@
 16-17	השלום	_	_	_	_	_	_	_	IndexChanged=Yes
 16	ה	ה	DET	DET	_	17	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 17	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 14
 # source = MiscCollection
@@ -442,8 +416,6 @@
 22	ל	ל	ADP	ADP	_	23	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 23	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	18	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 15
 # source = MiscCollection
 # text = אבל לא ניתן ליכתב בספר להורות בו לדורות הבאין
@@ -467,8 +439,6 @@
 14	ה	ה	DET	DET	_	15	det	_	_
 15	באין	בא	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	13	amod	_	_
 
-
-
 # sent_id = 16
 # source = MiscCollection
 # text = כי מצינו הרבה בהש"ס שחשו חכמים לתקנת עגונות והקילו מאד
@@ -491,8 +461,6 @@
 13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
 14	הקילו	הקל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	8	conj	_	_
 15	מאד	מאוד	ADV	ADV	_	14	advmod	_	_
-
-
 
 # sent_id = 17
 # source = MiscCollection
@@ -522,8 +490,6 @@
 19-20	הש"ס	_	_	_	_	_	_	_	IndexChanged=Yes
 19	ה	ה	DET	DET	_	20	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 20	ש"ס	ש"ס	PROPN	PROPN	Gender=Masc|Number=Sing	15	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 18
 # source = MiscCollection
@@ -573,8 +539,6 @@
 31	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 32	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	31	amod	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 19
 # source = MiscCollection
 # text = אין לו בית אחר אוכל בבית חבירו
@@ -592,8 +556,6 @@
 9	חביר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	SegModified=Yes
 10	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	9	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 20
 # source = MiscCollection
 # text = עד כאן הוכיחם על יראת שמים
@@ -605,8 +567,6 @@
 5	על	על	ADP	ADP	_	6	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 6	יראת	יראה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	IndexChanged=Yes
 7	שמים	שמיים	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 21
 # source = MiscCollection
@@ -624,8 +584,6 @@
 9-10	המצות	_	_	_	_	_	_	_	_
 9	ה	ה	DET	DET	_	10	det	_	_
 10	מצות	מצווה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obj	_	_
-
-
 
 # sent_id = 22
 # source = MiscCollection
@@ -645,8 +603,6 @@
 10	ו	ו	CCONJ	CCONJ	_	11	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 11	אוכל	אכל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	6	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 23
 # source = MiscCollection
 # text = אין לו דבר לעשות מחיצה מחזיר פניו ואוכל
@@ -664,8 +620,6 @@
 10-11	ואוכל	_	_	_	_	_	_	_	IndexChanged=Yes
 10	ו	ו	CCONJ	CCONJ	_	11	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 11	אוכל	אכל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	7	conj	_	IndexChanged=Yes
-
-
 
 # sent_id = 24
 # source = MiscCollection
@@ -706,8 +660,6 @@
 26	ה	ה	DET	DET	_	27	det	_	_
 27	מזון	מזון	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
 
-
-
 # sent_id = 25
 # source = MiscCollection
 # text = אפילו אם אוכל עם אחרים שמברכין לא יענה אחריהם אמן ופטור מכל המצוות האמורות בתורה
@@ -740,8 +692,6 @@
 21-22	בתורה	_	_	_	_	_	_	_	IndexChanged=Yes
 21	ב	ב	ADP	ADP	Definite=Def	22	case	_	PhantomRemoved=Yes|DepHeadChanged=Yes
 22	תורה	תורה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	IndexChanged=Yes
-
-
 
 # sent_id = 26
 # source = MiscCollection
@@ -797,8 +747,6 @@
 37	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	38	nsubj:cop	_	_
 38	רשאי	רשאי	ADJ	ADJ	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 
-
-
 # sent_id = 27
 # source = MiscCollection
 # text = פתחה עיניה ביותר או עצמה עיניה ביותר לא עלתה לה טבילה
@@ -819,8 +767,6 @@
 12	ל	ל	ADP	ADP	_	13	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 13	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	11	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 14	טבילה	טבילה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 28
 # source = MiscCollection
@@ -850,8 +796,6 @@
 18	ב	ב	ADP	ADP	_	19	case	_	_
 19	שכב	שכב	VERB	VERB	VerbForm=Inf	15	ccomp	_	SegModified=Yes
 20	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2	19	nmod	_	_
-
-
 
 # sent_id = 29
 # source = MiscCollection
@@ -937,8 +881,6 @@
 60	ה	ה	DET	DET	_	61	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 61	שבת	שבת	NOUN	NOUN	Gender=Fem|Number=Sing	58	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 30
 # source = MiscCollection
 # text = כשם שהרופא חותך ידו או רגלו של זה כדי שיחיה כולו כך בית דין מורים בזמן מן הזמנים לעבור על קצת מצות לפי שעה כדי שיתקיימו כולם כדרך שאמרו חכמים הראשונים חלל עליו שבת אחת כדי שישמור שבתות הרבה
@@ -1011,8 +953,6 @@
 53	שבתות	שבת	NOUN	NOUN	Gender=Fem|Number=Plur	52	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 54	הרבה	הרבה	DET	DET	_	53	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 31
 # source = MiscCollection
 # text = אין המשל הזה צודק אלא אם כן אנו רואין את כל ישראל כאילו הם גוף אחד
@@ -1036,8 +976,6 @@
 16	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	17	cop	_	_
 17	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
 18	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	17	nummod	_	_
-
-
 
 # sent_id = 32
 # source = MiscCollection
@@ -1074,8 +1012,6 @@
 24	נשמה	נשמה	NOUN	NOUN	Gender=Fem|Number=Sing	26	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 25	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	26	cop	_	IndexChanged=Yes|DepHeadChanged=Yes
 26	עיקר	עיקר	NOUN	NOUN	Gender=Masc|Number=Sing	20	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 33
 # source = MiscCollection
@@ -1127,8 +1063,6 @@
 34	ה	ה	DET	DET	_	35	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 35	דרכים	דרך	NOUN	NOUN	Gender=Masc|Number=Plur	31	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 34
 # source = MiscCollection
 # text = לא צריך קרא דמסברא ידעינן דבישול מבטל הצליה כדאמר רבי יוסי גבי מצה
@@ -1156,8 +1090,6 @@
 18	גבי	גבי	ADP	ADP	_	15	case	_	_
 19	מצה	מצה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
 
-
-
 # sent_id = 35
 # source = MiscCollection
 # text = ויש לומר דרב כהנא סבר דרבי יוסי יליף מבשל מבושל דבישול מבטל אפייה
@@ -1184,8 +1116,6 @@
 16	בישול	בישול	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
 17	מבטל	ביטל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	11	advcl	_	_
 18	אפייה	אפייה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obj	_	_
-
-
 
 # sent_id = 36
 # source = MiscCollection
@@ -1216,8 +1146,6 @@
 19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
 20	מלח	מלח	NOUN	NOUN	Gender=Masc|Number=Sing	18	conj	_	_
 
-
-
 # sent_id = 37
 # source = MiscCollection
 # text = ונהגו ליזהר לכתחלה שלא ליתן פת אפילו בכלי שני כל זמן שהיד סולדת בו
@@ -1247,8 +1175,6 @@
 19	ב	ב	ADP	ADP	_	20	case	_	SegModified=Yes
 20	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	18	obl	_	_
 
-
-
 # sent_id = 38
 # source = MiscCollection
 # text = אין בישול אחר בישול בשבת אבל יש אפיה אחר בישול ויש בישול אחר אפיה כגון לשרות לחם ברותח
@@ -1276,8 +1202,6 @@
 20-21	ברותח	_	_	_	_	_	_	_	_
 20	ב	ב	ADP	ADP	_	21	case	_	_
 21	רותח	רתח	VERB	VERB	Gender=Masc|Number=Sing|VerbForm=Part	18	obl	_	_
-
-
 
 # sent_id = 39
 # source = MiscCollection
@@ -1339,8 +1263,6 @@
 43	נזכר	נזכר	VERB	VERB	Gender=Masc|Number=Sing	35	parataxis	_	_
 44	לעיל	לעיל	ADV	ADV	_	43	advmod	_	_
 
-
-
 # sent_id = 40
 # source = MiscCollection
 # text = יוצאין ידי חובת מצה ברקיק השרוי בתבשיל לאחר אפייתו ואף על פי שמתמסמס לחם הוא כל זמן שהוא קיים שלא נימוח לגמרי וכן במבושל
@@ -1389,8 +1311,6 @@
 33	ב	ב	ADP	ADP	_	34	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 34	מבושל	בושל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	32	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 41
 # source = MiscCollection
 # text = וכל זה אינו אלא חומרות רחוקות
@@ -1402,8 +1322,6 @@
 5	אלא	אלא	CCONJ	CCONJ	_	6	mark	_	_
 6	חומרות	חומרה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
 7	רחוקות	רחוק	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
-
-
 
 # sent_id = 42
 # source = MiscCollection
@@ -1435,8 +1353,6 @@
 18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
 19	שמור	שמר	VERB	VERB	Gender=Masc|Number=Sing|VerbForm=Inf	17	conj	_	_
 
-
-
 # sent_id = 43
 # source = MiscCollection
 # text = אבל הנשים נוהגות כדברי מהרי"ל שכל ששכחה פעם אחת מדלקת כל ימיה ג' נרות
@@ -1464,8 +1380,6 @@
 17	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	16	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 18	ג'	ג	NUM	NUM	_	19	nummod	_	IndexChanged=Yes|DepHeadChanged=Yes
 19	נרות	נר	NOUN	NOUN	Gender=Masc|Number=Plur	14	obj	_	IndexChanged=Yes
-
-
 
 # sent_id = 44
 # source = MiscCollection
@@ -1569,8 +1483,6 @@
 75	לא	לא	ADV	ADV	_	76	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 76	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	70	dislocated	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 46
 # source = MiscCollection
 # text = מוכח דהמוסיף על ענין מכוון גורע ואין להוסיף על ענין מכוון
@@ -1591,8 +1503,6 @@
 13	ענין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
 14	מכוון	מכוון	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	_	_
 
-
-
 # sent_id = 47
 # source = MiscCollection
 # text = יותר טוב שתספיק לעניה א' כל כך שמן כדי שתדליק
@@ -1612,8 +1522,6 @@
 12-13	שתדליק	_	_	_	_	_	_	_	_
 12	ש	ש	SCONJ	SCONJ	_	11	fixed	_	_
 13	תדליק	הדליק	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	10	advcl	_	_
-
-
 
 # sent_id = 48
 # source = MiscCollection
@@ -1657,8 +1565,6 @@
 29	או	או	CCONJ	CCONJ	_	30	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 30	שמונה	שמונה	NUM	NUM	Gender=Masc|Number=Plur	28	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 31	נרות	נר	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 49
 # source = MiscCollection
@@ -1728,8 +1634,6 @@
 48	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	46	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 49	כלל	כלל	ADV	ADV	_	46	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 50
 # source = MiscCollection
 # text = ולכן חל עליה שפיר הקנס של הוספת נר עבור כך
@@ -1749,8 +1653,6 @@
 11	נר	נר	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
 12	עבור	עבור	ADP	ADP	_	13	mark	_	_
 13	כך	כך	PRON	PRON	_	3	obl	_	_
-
-
 
 # sent_id = 51
 # source = MiscCollection
@@ -1802,8 +1704,6 @@
 35	פנ	פנים	NOUN	NOUN	Gender=Masc	34	flat	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 36	י	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	35	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 52
 # source = MiscCollection
 # text = אסור לתת אותם אמצעיים בין השם ובינינו
@@ -1821,8 +1721,6 @@
 9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
 10	בינינ	בין	ADP	ADP	_	11	case	_	SegModified=Yes
 11	ו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1	8	conj	_	_
-
-
 
 # sent_id = 53
 # source = MiscCollection
@@ -1869,8 +1767,6 @@
 30	זולת	זולת	ADP	ADP	_	31	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 31	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	27	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 54
 # source = MiscCollection
 # text = ואומרים מכניסי רחמים כו' מכניסי דמעה כו' ואין בזה משום משתף שם שמים ודבר אחר
@@ -1897,8 +1793,6 @@
 17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
 18	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
 19	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
-
-
 
 # sent_id = 55
 # source = MiscCollection
@@ -1961,8 +1855,6 @@
 44	לבקש	ביקש	VERB	VERB	VerbForm=Inf	39	xcomp	_	IndexChanged=Yes|DepHeadChanged=Yes
 45	רחמים	רחמים	NOUN	NOUN	Gender=Masc|Number=Plur	44	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 56
 # source = MiscCollection
 # text = ובמדרש שיר השירים אומרת כנסת ישראל למלאכים העומדים הוליכו תפלתי ודמעתי לפני הקדוש ברוך הוא ותהיו מליצי יושר לפניו שימחול לי
@@ -2012,8 +1904,6 @@
 33	ל	ל	ADP	ADP	_	34	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 34	י	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	32	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 57
 # source = MiscCollection
 # text = הא עיקר מצוות בקור חולים הוא כדי שיתפלל כשרואהו שהשם יתברך ישלח לו רפואה
@@ -2040,8 +1930,6 @@
 17	ל	ל	ADP	ADP	_	18	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 18	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	16	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 19	רפואה	רפואה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 58
 # source = MiscCollection
@@ -2092,8 +1980,6 @@
 33	עמ	עם	ADP	ADP	_	34	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 34	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	32	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 59
 # source = MiscCollection
 # text = והיה בראוי לסמכה למשנה ראשונה אלא שדרך התלמוד לבלבל תכונת הסדר בהרבה מקומות
@@ -2127,8 +2013,6 @@
 20	ב	ב	ADP	ADP	_	22	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 21	הרבה	הרבה	DET	DET	_	22	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 22	מקומות	מקום	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 60
 # source = MiscCollection
@@ -2177,8 +2061,6 @@
 31	קריאת	קריאה	NOUN	NOUN	Gender=Fem|Number=Sing	29	obl	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 32	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	31	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 61
 # source = MiscCollection
 # text = ואינו מחוור דהא פשיטא שאם קרא ככתיבן דלא יצא
@@ -2203,8 +2085,6 @@
 14	ד	ד	SCONJ	SCONJ	_	16	mark	_	IndexChanged=Yes|DepHeadChanged=Yes
 15	לא	לא	ADV	ADV	_	16	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 16	יצא	יצא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	IndexChanged=Yes
-
-
 
 # sent_id = 62
 # source = MiscCollection
@@ -2238,8 +2118,6 @@
 21-22	בתורה	_	_	_	_	_	_	_	IndexChanged=Yes
 21	ב	ב	ADP	ADP	Definite=Def	22	case	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 22	תורה	תורה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 63
 # source = MiscCollection
@@ -2311,8 +2189,6 @@
 49	ש	ש	SCONJ	SCONJ	_	50	mark	_	IndexChanged=Yes|DepHeadChanged=Yes
 50	כתבתי	כתב	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	43	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 64
 # source = MiscCollection
 # text = הנה היסוד שיסדו שאין יוצאים בקריאת שמע ובתפילה אם אינם מבינים הלע"ז הוא יסוד שקר
@@ -2346,8 +2222,6 @@
 21	הוא	הוא	AUX	AUX	Gender=Masc|Number=Sing|Person=3	22	cop	_	IndexChanged=Yes|DepHeadChanged=Yes
 22	יסוד	יסוד	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	IndexChanged=Yes
 23	שקר	שקר	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 65
 # source = MiscCollection
@@ -2394,8 +2268,6 @@
 32	את	את	ADP	ADP	_	33	case:acc	_	_
 33	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3	31	obj	_	_
 
-
-
 # sent_id = 66
 # source = MiscCollection
 # text = והמשנה הראשונה ממנו תכוין לבאר זמן קריאת שמע של ערבית מהיכן הוא מתחיל ועד היכן הוא מגיע
@@ -2427,8 +2299,6 @@
 21	היכן	היכן	ADV	ADV	_	23	advmod	_	_
 22	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
 23	מגיע	הגיע	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	18	conj	_	_
-
-
 
 # sent_id = 67
 # source = MiscCollection
@@ -2476,8 +2346,6 @@
 30	ה	ה	DET	DET	_	31	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 31	מילות	מילה	NOUN	NOUN	Gender=Fem|Number=Plur	29	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 68
 # source = MiscCollection
 # text = ובמדינות אלו אין נוהגין להתעטף בטלית ותפילין ביום התענית
@@ -2502,8 +2370,6 @@
 14	ה	ה	DET	DET	_	15	det	_	_
 15	תענית	תענית	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
 
-
-
 # sent_id = 69
 # source = MiscCollection
 # text = ויש ליזהר למלאות החשבון בברכות אחרות
@@ -2519,8 +2385,6 @@
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	ברכות	ברכה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
 9	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
-
-
 
 # sent_id = 70
 # source = MiscCollection
@@ -2560,8 +2424,6 @@
 25	ב	ב	ADP	ADP	_	26	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 26	חרן	חרן	PROPN	PROPN	Gender=Masc|Number=Sing	24	flat	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 71
 # source = MiscCollection
 # text = ולי נראה דאל ישנה אדם מן המנהג
@@ -2579,8 +2441,6 @@
 10-11	המנהג	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	_	11	det	_	_
 11	מנהג	מנהג	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
-
-
 
 # sent_id = 72
 # source = MiscCollection
@@ -2607,8 +2467,6 @@
 14	ה	ה	DET	DET	_	15	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 15	כנסת	כנסת	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 73
 # source = MiscCollection
 # text = אבל אם לא אמר כלל מעכב
@@ -2618,8 +2476,6 @@
 4	אמר	אמר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	6	advcl	_	_
 5	כלל	כלל	ADV	ADV	_	4	advmod	_	_
 6	מעכב	עיכב	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
-
-
 
 # sent_id = 74
 # source = MiscCollection
@@ -2667,8 +2523,6 @@
 30	ה	ה	DET	DET	_	31	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 31	ממונה	ממונה	NOUN	NOUN	Gender=Masc|Number=Sing	27	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 75
 # source = MiscCollection
 # text = יום שיש בו הלל בלי מוסף הם ימים של חנוכה ולפי שהם מדברי סופרים עשו להם חיזוק ודחו המעמד מתחילת היום
@@ -2713,8 +2567,6 @@
 30-31	היום	_	_	_	_	_	_	_	_
 30	ה	ה	DET	DET	_	31	det	_	_
 31	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
-
-
 
 # sent_id = 76
 # source = MiscCollection
@@ -2800,8 +2652,6 @@
 59-60	בו	_	_	_	_	_	_	_	IndexChanged=Yes
 59	ב	ב	ADP	ADP	_	60	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 60	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	58	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 76.1
 # source = MiscCollection
@@ -2924,8 +2774,6 @@
 87	כ	כ	ADP	ADP	_	88	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 88	כתב	כתב	NOUN	NOUN	Gender=Fem|Number=Sing	86	ccomp	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 89	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	88	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 77
 # source = MiscCollection
@@ -3051,8 +2899,6 @@
 90	ה	ה	DET	DET	_	91	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 91	הלל	הלל	NOUN	NOUN	Gender=Masc|Number=Sing	66	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 78
 # source = MiscCollection
 # text = ולכאורה יוצא מזה נפקא מינה לדינה אם מותר להפסיק באמצע הפסוק דאי משום שהלל בראש חודש קל הוא אזי מותר להפסיק אף באמצע הפסוק ואי משום דנאמר בו דין קריאת פסוקים ובין הפסוקים הוי כבין הפרקים יש לומר דבאמצע הפסוק אסור להפסיק
@@ -3139,8 +2985,6 @@
 62	אסור	אסור	ADV	ADV	_	56	ccomp	_	IndexChanged=Yes|DepHeadChanged=Yes
 63	להפסיק	הפסיק	VERB	VERB	VerbForm=Inf	62	csubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 79
 # source = MiscCollection
 # text = וביום שיש בו תפלת מוסף לכל העם בכלל תדחה הקריאה באותה תפלה היתירה ובתפלת מנחה ואין קורין אלא בשחרית ובנעילה
@@ -3192,8 +3036,6 @@
 34	ב	ב	ADP	ADP	_	35	case	_	_
 35	נעילה	נעילה	NOUN	NOUN	Gender=Fem|Number=Sing	32	conj	_	_
 
-
-
 # sent_id = 80
 # source = MiscCollection
 # text = ומזו ההלכה יתבאר לך כי אנשי מעמד היו מתפללין תפלת נעילה בכל יום והלכה כבן עזאי:
@@ -3226,8 +3068,6 @@
 21	כ	כ	ADP	ADP	_	22	case	_	_
 22	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj	_	_
 23	עזאי:	עזאי	PROPN	PROPN	Gender=Masc|Number=Sing	22	flat	_	_
-
-
 
 # sent_id = 81
 # source = MiscCollection
@@ -3266,8 +3106,6 @@
 25	שלשה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	8	nummod	_	IndexChanged=Yes
 26	עמודי	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	IndexChanged=Yes
 27	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	IndexChanged=Yes
-
-
 
 # sent_id = 82
 # source = MiscCollection
@@ -3323,8 +3161,6 @@
 37	כל	כל	DET	DET	_	18	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 38	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 83
 # source = MiscCollection
 # text = ואם כן ממילא שהתפלה בכלל זה שזהו עבודה בכונה רצויה ואיך נצייר אהבת השם אם לא נתפלל אליו כלל
@@ -3361,8 +3197,6 @@
 25	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	23	obl	_	_
 26	כלל	כלל	ADV	ADV	_	23	advmod	_	_
 
-
-
 # sent_id = 84
 # source = MiscCollection
 # text = ועוד דידוע שיטתו של הרמב"ן דברכת התורה לפניה הוי מצות עשה דאוריתא
@@ -3392,8 +3226,6 @@
 17	מצות	מצווה	NOUN	NOUN	Gender=Fem|Number=Sing	5	acl:relcl	_	IndexChanged=Yes
 18	עשה	עשה	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 19	דאוריתא	דאורייתא	ADJ	ADJ	_	17	nmod	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 85
 # source = MiscCollection
@@ -3464,8 +3296,6 @@
 48	פרנסתי	פרנסה	NOUN	NOUN	Gender=Fem|Number=Sing	44	conj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 49	נו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1	48	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 86
 # source = MiscCollection
 # text = היש לך חיוב גדול מזה
@@ -3480,8 +3310,6 @@
 7-8	מזה	_	_	_	_	_	_	_	_
 7	מ	מ	ADP	ADP	_	8	case	_	_
 8	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
-
-
 
 # sent_id = 87
 # source = MiscCollection
@@ -3517,8 +3345,6 @@
 23-24	המצות	_	_	_	_	_	_	_	_
 23	ה	ה	DET	DET	_	24	det	_	_
 24	מצות	מצווה	NOUN	NOUN	Gender=Fem|Number=Plur	22	compound:smixut	_	_
-
-
 
 # sent_id = 88
 # source = MiscCollection
@@ -3591,8 +3417,6 @@
 49	דוקא	דווקא	ADV	ADV	_	50	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 50	מעומד	עמד	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	25	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 89
 # source = MiscCollection
 # text = ובה אנו מקדישים קדושתו יתברך בחזרת השליח ציבור כמלאכי מעלה
@@ -3617,8 +3441,6 @@
 14	כ	כ	ADP	ADP	_	15	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 15	מלאכי	מלאך	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	IndexChanged=Yes
 16	מעלה	מעלה	NOUN	NOUN	_	15	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 90
 # source = MiscCollection
@@ -3709,8 +3531,6 @@
 65	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	66	cop	_	IndexChanged=Yes|DepHeadChanged=Yes
 66	כללי	כללי	ADJ	ADJ	Gender=Masc|Number=Sing	63	appos	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 91
 # source = MiscCollection
 # text = כמו כן ענין התפלה אינה נכנסת בפרטי המצות מפני שהתפלה הוא ענין כללי וכן הוא על פי חכמת הנסתר
@@ -3746,8 +3566,6 @@
 25-26	הנסתר	_	_	_	_	_	_	_	_
 25	ה	ה	DET	DET	_	26	det	_	_
 26	נסתר	הסתיר	VERB	VERB	Gender=Masc|Number=Sing	24	compound:smixut	_	_
-
-
 
 # sent_id = 92
 # source = MiscCollection
@@ -3786,8 +3604,6 @@
 25-26	היום	_	_	_	_	_	_	_	_
 25	ה	ה	DET	DET	_	26	det	_	_
 26	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
-
-
 
 # sent_id = 93
 # source = MiscCollection
@@ -3852,8 +3668,6 @@
 45	אין	אין	AUX	AUX	_	46	aux	_	IndexChanged=Yes|DepHeadChanged=Yes
 46	לשנות	שנה	VERB	VERB	VerbForm=Inf	42	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 94
 # source = MiscCollection
 # text = ראש השנה ויום הכיפורים אין בהן הלל לפי שהן ימי תשובה ויראה ופחד לא ימי שמחה יתירה
@@ -3888,8 +3702,6 @@
 22	ימי	יום	NOUN	NOUN	Gender=Masc|Number=Plur	15	appos	_	_
 23	שמחה	שמחה	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
 24	יתירה	יתרה	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	_
-
-
 
 # sent_id = 95
 # source = MiscCollection
@@ -3939,8 +3751,6 @@
 31	ב	ב	ADP	ADP	_	32	case	_	_
 32	נפש	נפש	NOUN	NOUN	Gender=Masc|Number=Sing|Person=3	30	obl	_	SegModified=Yes
 33	ו	הוא	PRON	PRON	_	32	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
-
-
 
 # sent_id = 96
 # source = אגרת_ארחות_עולם
@@ -4069,8 +3879,6 @@
 89	ה	ה	DET	DET	_	90	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 90	קדומים	קדום	ADJ	ADJ	Gender=Masc|Number=Plur	87	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 97
 # source = אגרת_ארחות_עולם
 # text = ואם יש חלוקות אחרות ואופנים אחרים אשר ראיתי לאנשי זאת המלאכה מכל מקום נטיתי לבי ללכת אחרי עקבות טולומאו וציוריו להיותו מפורסם אצל חכמי הנוצרים וגם מחכמי ישראל המתעסקים בחכמת התכונה אשר החכמה הזאת הכרחית למשפטיהם בעיון מסיבות הגלגלים על אנה יסובו בלכתם אשר על זה לא דבר כלל אלדד הדני ובעל המסעות רק בהליכותיו ובמאורעות לו
@@ -4186,8 +3994,6 @@
 86-87	לו	_	_	_	_	_	_	_	IndexChanged=Yes
 86	ל	ל	ADP	ADP	_	87	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 87	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	85	nmod	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 98
 # source = אגרת_ארחות_עולם
@@ -4394,8 +4200,6 @@
 156	גויי	גוי	NOUN	NOUN	Gender=Masc|Number=Plur	153	conj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 157	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	156	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 99
 # source = אגרת_ארחות_עולם
 # text = וזאת תהיה הגדת ספורי באגרת הזאת להגיד רוב העיקרים האלה כאשר תשיג ידי
@@ -4426,8 +4230,6 @@
 19-20	ידי	_	_	_	_	_	_	_	IndexChanged=Yes
 19	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 20	י	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	19	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 100
 # source = אגרת_ארחות_עולם
@@ -4504,8 +4306,6 @@
 55-56	במציאות	_	_	_	_	_	_	_	_
 55	ב	ב	ADP	ADP	_	56	case	_	_
 56	מציאות	מציאות	NOUN	NOUN	Gender=Fem|Number=Sing	53	obl	_	_
-
-
 
 # sent_id = 101
 # source = אגרת_ארחות_עולם
@@ -4593,8 +4393,6 @@
 58	ערי	עיר	NOUN	NOUN	Gender=Fem|Number=Plur	56	conj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 59	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	58	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 102
 # source = אגרת_ארחות_עולם
 # text = ובאלה מסעי פרטי המסעות כלם
@@ -4610,8 +4408,6 @@
 8-9	כלם	_	_	_	_	_	_	_	_
 8	כל	כל	DET	DET	_	9	case	_	SegModified=Yes
 9	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	5	det	_	_
-
-
 
 # sent_id = 103
 # source = אגרת_ארחות_עולם
@@ -4674,8 +4470,6 @@
 44-45	לחכמים	_	_	_	_	_	_	_	IndexChanged=Yes
 44	ל	ל	ADP	ADP	Definite=Def	45	case	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 45	חכמים	חכם	NOUN	NOUN	Gender=Masc|Number=Plur	43	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 104
 # source = אגרת_ארחות_עולם
@@ -4799,8 +4593,6 @@
 87	י	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	84	obl	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 88	אמן	אמן	INTJ	INTJ	_	86	parataxis	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 105
 # source = אגרת_ארחות_עולם
 # text = הסכימו החכמים כלם בעלי החקירות כי העולם כלו בכללו כדוריי והארץ באמצע הכל כנקודה בתוך העגולה תלויה על בלימה ברצון הבורא וסביבותיה שלשת היסודות ועליהם מספר הגלגלים כלם סובבים זה על זה כגולדי בצלים כי אין ריקות נמצא
@@ -4884,8 +4676,6 @@
 59	אין	אין	AUX	AUX	_	61	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 60	ריקות	ריקות	NOUN	NOUN	Gender=Masc|Number=Sing	61	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 61	נמצא	נמצא	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	51	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 106
 # source = אגרת_ארחות_עולם
@@ -4973,8 +4763,6 @@
 59	ב	ב	ADP	ADP	_	60	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 60	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	58	obl:part	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 107
 # source = אגרת_ארחות_עולם
 # text = ותשאר בזה חקירתנו כי הים והיבשה הנראים בעצמותם למטה הם יחדיו גם כן כמו כדור סובב
@@ -5010,8 +4798,6 @@
 23	כמו	כמו	ADP	ADP	_	24	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 24	כדור	כדור	NOUN	NOUN	Gender=Masc|Number=Sing	5	acl:relcl	_	IndexChanged=Yes
 25	סובב	סבב	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	24	amod	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 108
 # source = אגרת_ארחות_עולם
@@ -5104,8 +4890,6 @@
 62	ב	ב	ADP	ADP	Definite=Def	63	case	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 63	נהרות	נהר	NOUN	NOUN	Gender=Masc|Number=Plur	61	orphan	_	OrphanFunc=obl|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 109
 # source = ספר_החינוך
 # text = גם בזה היתה תשובתו פשוטה להשיב שאין דעת הנוצר משיג כוונת יוצרו
@@ -5131,8 +4915,6 @@
 16-17	יוצרו	_	_	_	_	_	_	_	IndexChanged=Yes
 16	יוצר	יוצר	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 17	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	16	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 110
 # source = ספר_החינוך
@@ -5170,8 +4952,6 @@
 23	כול	כל	DET	DET	_	24	det	_	SegModified=Yes
 24	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	14	conj	_	_
 
-
-
 # sent_id = 111
 # source = ספר_החינוך
 # text = אבל מכל מקום גם לזה אפשר למצוא בו קצת טעם לפי מנהגו של עולם
@@ -5198,8 +4978,6 @@
 17	של	של	ADP	ADP	_	18	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 18	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	IndexChanged=Yes
 
-
-
 # sent_id = 112
 # source = ספר_החינוך
 # text = ונוהגת בכל מקום ובכל זמן בזכרים ונקבות
@@ -5222,8 +5000,6 @@
 12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
 13	נקבות	נקבה	NOUN	NOUN	Gender=Fem|Number=Plur	11	conj	_	_
 
-
-
 # sent_id = 113
 # source = ספר_החינוך
 # text = שרש מצוה זו אין צריך ביאור
@@ -5233,8 +5009,6 @@
 4	אין	אין	ADV	ADV	_	5	advmod	_	_
 5	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing	0	root	_	_
 6	ביאור	ביאור	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
-
-
 
 # sent_id = 114
 # source = ספר_החינוך
@@ -5285,8 +5059,6 @@
 32	עם	עם	ADP	ADP	Gender=Masc|Number=Sing	33	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 33	ישראל	ישראל	PROPN	PROPN	_	26	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 115
 # source = ספר_החינוך
 # text = ועובר עליה ואוכל כזית חמץ בפסח במזיד חייב כרת בשוגג חייב חטאת קבועה
@@ -5311,8 +5083,6 @@
 15	חייב	חייב	ADJ	ADJ	Gender=Masc|Number=Sing	12	conj	_	_
 16	חטאת	חטאת	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl:unmarked	_	_
 17	קבועה	קבוע	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
-
-
 
 # sent_id = 116
 # source = ספר_החינוך
@@ -5347,8 +5117,6 @@
 21	ב	ב	ADP	ADP	_	22	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 22	שום	שום	DET	DET	_	18	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 23	פנים	פנים	NOUN	NOUN	Gender=Masc|Number=Plur	22	fixed	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 117
 # source = ספר_החינוך
@@ -5480,8 +5248,6 @@
 93	ראיה	ראיה	NOUN	NOUN	Gender=Fem|Number=Sing	92	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 94	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	93	amod	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 118
 # source = ספר_החינוך
 # text = דיני מצוה זו כגון מה שמחויב עלינו להאמין עליו שכל היכולת וכל הגדולה והגבורה והתפארת וכל ההוד וכל הברכה וכל הקיום בו ושאין בנו כח ושכל להשיג ולהגיד גדלו וטובו כי לרוב מעלתו והודו לא יושג רק לעצמו ולשלול ממנו בכל כוחינו כל חסרון וכל מה שהוא הפך כל שלמות וכל מעלה
@@ -5609,8 +5375,6 @@
 89	כל	כל	DET	DET	_	90	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 90	מעלה	מעלה	NOUN	NOUN	Gender=Fem|Number=Sing	87	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 119
 # source = ספר_החינוך
 # text = אשרי הזוכים אליה כי אז יקיימו מצוה זו על בוריה
@@ -5631,8 +5395,6 @@
 12	בורי	בורי	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	SegModified=Yes
 13	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	12	case:gen	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 120
 # source = ספר_החינוך
 # text = שורש מצוה זו ידוע שהוא להרחיק עבודה זרה
@@ -5646,8 +5408,6 @@
 7	להרחיק	הרחיק	VERB	VERB	VerbForm=Inf	1	acl:relcl	_	_
 8	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
 9	זרה	זר	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
-
-
 
 # sent_id = 121
 # source = ספר_החינוך
@@ -5791,8 +5551,6 @@
 100	ה	ה	DET	DET	_	101	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 101	שפל	שפל	ADJ	ADJ	Gender=Masc|Number=Sing	99	amod	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 122
 # source = ספר_החינוך
 # text = ובעניין הנדר דרך אחרת יש בו שהוא כמכניס דבר המותר בגדר האסור וכאלו יאמר דבר פלוני שהוא מותר יהא אסור עליו כקרבן שאסר השם יתברך
@@ -5848,8 +5606,6 @@
 37	ה	ה	DET	DET	_	38	mark	_	_
 38	שם	שם	PROPN	PROPN	_	36	nsubj	_	_
 39	יתברך	התברך	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	38	flat	_	_
-
-
 
 # sent_id = 123
 # source = ספר_מהריל
@@ -5913,8 +5669,6 @@
 42	ה	ה	DET	DET	_	43	det	_	_
 43	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	41	compound:smixut	_	_
 
-
-
 # sent_id = 124
 # source = ספר_מהריל
 # text = ואבאר בהם גם כן המנהגים אשר ראיתי נוהג הוותיק יקר תפארת
@@ -5937,8 +5691,6 @@
 13	וותיק	ותיק	ADJ	ADJ	Gender=Masc|Number=Sing	11	nsubj	_	_
 14	יקר	יקר	ADJ	ADJ	Gender=Masc|Number=Sing	13	appos	_	_
 15	תפארת	תפארת	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
-
-
 
 # sent_id = 125
 # source = ספר_מהריל
@@ -5973,8 +5725,6 @@
 20	ל	ל	ADP	ADP	_	21	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 21	מזכרת	מזכרת	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 126
 # source = ספר_מהריל
 # text = כי השכחה היא מצויה ונתגברה בעולם הזה בגלותנו
@@ -5997,8 +5747,6 @@
 12	ב	ב	ADP	ADP	_	13	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 13	גלות	גלות	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	SegModified=Yes|IndexChanged=Yes
 14	נו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1	13	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 127
 # source = ספר_מהריל
@@ -6062,8 +5810,6 @@
 46	לשונ	לשון	NOUN	NOUN	Gender=Fem|Number=Sing	44	fixed	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 47	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	46	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 128
 # source = ספר_מהריל
 # text = ניסן הוא מלך מפני חג המצות שבו וכל חדש שהוא מלך אין ראש חודש שלו רק יום אחד וראש חדש ניסן אינו חל אלא באחד מימי א ג ה ז
@@ -6114,8 +5860,6 @@
 37	ג	ג	NUM	NUM	_	36	conj	_	_
 38	ה	ה	NUM	NUM	_	36	conj	_	_
 39	ז	ז	NUM	NUM	_	36	conj	_	_
-
-
 
 # sent_id = 129
 # source = ספר_מהריל
@@ -6178,8 +5922,6 @@
 45	יב	יב	NUM	NUM	_	46	nummod	_	IndexChanged=Yes|DepHeadChanged=Yes
 46	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	22	conj	_	IndexChanged=Yes
 
-
-
 # sent_id = 130
 # source = ספר_מהריל
 # text = ויום יג היה להן אסרו חג ויום יד ערב פסח ונכנסו ימי החג ומתוך שלא נפל לתחינה ברובן לא נפלו בכולן
@@ -6227,8 +5969,6 @@
 32	כול	כל	DET	DET	_	33	det	_	SegModified=Yes
 33	ן	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	30	obl	_	_
 
-
-
 # sent_id = 131
 # source = ספר_מהריל
 # text = ואין אומרים כל ימי ניסן צדקתך דדינו כמו תחינה
@@ -6248,8 +5988,6 @@
 11	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	10	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 12	כמו	כמו	ADP	ADP	_	13	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 13	תחינה	תחינה	NOUN	NOUN	Gender=Fem|Number=Sing	3	advcl	_	IndexChanged=Yes
-
-
 
 # sent_id = 132
 # source = ספר_מהריל
@@ -6275,8 +6013,6 @@
 14	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
 15	פסח	פסח	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
 
-
-
 # sent_id = 133
 # source = ספר_מהריל
 # text = ואומרים כל ימי ניסן אל ארך אפיים בשני ובחמישי
@@ -6296,8 +6032,6 @@
 11	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
 12	ב	ב	ADP	ADP	_	13	case	_	_
 13	חמישי	חמישי	NUM	NUM	Gender=Masc|Number=Sing	10	conj	_	_
-
-
 
 # sent_id = 134
 # source = ספר_מהריל
@@ -6326,8 +6060,6 @@
 18-19	למנצח	_	_	_	_	_	_	_	_
 18	ל	ל	ADP	ADP	Gender=Masc|Number=Sing	19	case	_	_
 19	מנצח	מנצח	NOUN	NOUN	_	16	obj	_	Cite=Yes
-
-
 
 # sent_id = 135
 # source = ספר_מהריל
@@ -6362,8 +6094,6 @@
 21-22	שלו	_	_	_	_	_	_	_	IndexChanged=Yes
 21	של	של	ADP	ADP	_	22	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 22	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	19	nmod:poss	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 136
 # source = ספר_מהריל
@@ -6403,8 +6133,6 @@
 26	ל	ל	ADP	ADP	_	27	case	_	_
 27	מנצח	מנצח	NOUN	NOUN	Gender=Masc|Number=Sing	20	conj	_	_
 
-
-
 # sent_id = 137
 # source = ספר_מהריל
 # text = לעולם בשנה פשוטה קורין פרשת צו קודם פסח
@@ -6419,8 +6147,6 @@
 8	קודם	קודם	ADP	ADP	_	9	case	_	_
 9	פסח	פסח	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
 
-
-
 # sent_id = 138
 # source = ספר_מהריל
 # text = ובשנה מעוברת קורין פרשת מצורע קודם פסח
@@ -6434,8 +6160,6 @@
 7	מצורע	מצורע	PROPN	PROPN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
 8	קודם	קודם	ADP	ADP	_	9	case	_	_
 9	פסח	פסח	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
-
-
 
 # sent_id = 139
 # source = ספר_מהריל
@@ -6501,8 +6225,6 @@
 47	אות	את	ADP	ADP	_	48	case	_	SegModified=Yes
 48	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	46	obj	_	_
 
-
-
 # sent_id = 140
 # source = ספר_מהריל
 # text = ובליל שני קורא ראש חודש משום דממנו מונין ימי החדש
@@ -6525,8 +6247,6 @@
 14	ה	ה	DET	DET	_	15	det	_	_
 15	חדש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
 
-
-
 # sent_id = 141
 # source = רשי_לתורה
 # text = אף בזה אנו צריכים לדברי אגדה
@@ -6540,8 +6260,6 @@
 6	ל	ל	ADP	ADP	_	7	case	_	_
 7	דברי	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
 8	אגדה	אגדה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
-
-
 
 # sent_id = 142
 # source = רשי_לתורה
@@ -6573,8 +6291,6 @@
 19	גערת	גערה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
 20	הקב"ה	הקב"ה	PROPN	PROPN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
 
-
-
 # sent_id = 143
 # source = רשי_לתורה
 # text = כל תולדות שמים וארץ נבראו ביום ראשון
@@ -6590,8 +6306,6 @@
 8	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
 9	ראשון	ראשון	NUM	NUM	Gender=Masc|Number=Sing	8	compound:smixut	_	_
 
-
-
 # sent_id = 144
 # source = רשי_לתורה
 # text = ענותנותו של הקב"ה למדנו מכאן
@@ -6604,8 +6318,6 @@
 6-7	מכאן	_	_	_	_	_	_	_	IndexChanged=Yes
 6	מ	מ	ADP	ADP	_	7	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 7	כאן	כאן	ADV	ADV	_	5	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 145
 # source = רשי_לתורה
@@ -6633,8 +6345,6 @@
 16-17	בהן	_	_	_	_	_	_	_	_
 16	ב	ב	ADP	ADP	_	17	case	_	SegModified=Yes
 17	הן	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	15	obl	_	_
-
-
 
 # sent_id = 146
 # source = רשי_לתורה
@@ -6675,8 +6385,6 @@
 26	מדת	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	23	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 27	ענווה	ענווה	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 147
 # source = רשי_לתורה
 # text = במזרחו של עדן נטע את הגן
@@ -6692,8 +6400,6 @@
 8	ה	ה	DET	DET	_	9	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 9	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 148
 # source = רשי_לתורה
 # text = לענין הגן הכתוב מדבר
@@ -6707,8 +6413,6 @@
 5	ה	ה	DET	DET	_	6	det	_	_
 6	כתוב	כתוב	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
 7	מדבר	דיבר	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
-
-
 
 # sent_id = 149
 # source = רשי_לתורה
@@ -6731,8 +6435,6 @@
 12	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	11	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 13	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	xcomp	_	IndexChanged=Yes
 
-
-
 # sent_id = 150
 # source = רשי_לתורה
 # text = כשהנחש בא לנשוך הוא נושף כמין שריקה
@@ -6748,8 +6450,6 @@
 8	כ	כ	ADP	ADP	_	9	case	_	_
 9	מין	מין	NOUN	NOUN	_	7	obl	_	_
 10	שריקה	שריקה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
-
-
 
 # sent_id = 151
 # source = רשי_לתורה
@@ -6773,8 +6473,6 @@
 13	ו	ו	CCONJ	CCONJ	_	14	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 14	עכביות	עכבית	NOUN	NOUN	Gender=Fem|Number=Plur	12	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 152
 # source = רשי_לתורה
 # text = זה אחד מן המקראות שקצרו דבריהם
@@ -6791,8 +6489,6 @@
 8	דברי	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	7	obj	_	SegModified=Yes
 9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	8	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 153
 # source = רשי_לתורה
 # text = איני רוצה להנקם מקין עכשיו
@@ -6805,8 +6501,6 @@
 5	מ	מ	ADP	ADP	_	6	case	_	_
 6	קין	קין	PROPN	PROPN	Gender=Masc|Number=Sing	4	obl	_	_
 7	עכשיו	עכשיו	ADV	ADV	Gender=Masc|Number=Sing	4	advmod	_	_
-
-
 
 # sent_id = 154
 # source = רשי_לתורה
@@ -6823,8 +6517,6 @@
 7	מ	מ	ADP	ADP	_	8	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 8	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 9	עדן	עדן	PROPN	PROPN	_	8	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 155
 # source = רשי_לתורה
@@ -6856,8 +6548,6 @@
 20	שתי	שתיים	NUM	NUM	Gender=Fem|Number=Dual	21	nummod	_	_
 21	לשונות	לשון	NOUN	NOUN	Gender=Fem|Number=Plur	19	obj	_	_
 
-
-
 # sent_id = 156
 # source = רשי_לתורה
 # text = בא לו למך אצל אדם הראשון וקבל על נשיו
@@ -6879,8 +6569,6 @@
 12	נשי	אשה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	SegModified=Yes
 13	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	12	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 157
 # source = רשי_לתורה
 # text = אתם עשו מצותכם והוא יעשה את שלו
@@ -6898,8 +6586,6 @@
 9	של	של	ADP	ADP	_	10	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 10	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	7	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 158
 # source = רשי_לתורה
 # text = זו היא ספירת תולדות אדם
@@ -6908,8 +6594,6 @@
 3	ספירת	ספירה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 4	תולדות	תולדה	NOUN	NOUN	Gender=Fem|Number=Plur	3	compound:smixut	_	_
 5	אדם	אדם	PROPN	PROPN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
-
-
 
 # sent_id = 159
 # source = רשי_לתורה
@@ -6961,8 +6645,6 @@
 35	נח	נח	PROPN	PROPN	Gender=Masc|Number=Sing	34	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 36	נחה	נח	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	21	conj	_	IndexChanged=Yes
 
-
-
 # sent_id = 160
 # source = רשי_לתורה
 # text = עד ק"ך שנה אאריך להם אפי ואם לא ישובו אביא עליהם מבול
@@ -6986,8 +6668,6 @@
 14	עלי	על	ADP	ADP	_	15	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 15	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	13	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 16	מבול	מבול	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 161
 # source = רשי_לתורה
@@ -7026,8 +6706,6 @@
 25	מה	מן	ADP	ADP	_	26	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 26	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	24	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 162
 # source = רשי_לתורה
 # text = לא נחתם גזר דינם אלא על הגזל
@@ -7042,8 +6720,6 @@
 8-9	הגזל	_	_	_	_	_	_	_	IndexChanged=Yes
 8	ה	ה	DET	DET	_	9	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 9	גזל	גזל	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	IndexChanged=Yes
-
-
 
 # sent_id = 163
 # source = רשי_לתורה
@@ -7071,8 +6747,6 @@
 17-18	ורעים	_	_	_	_	_	_	_	IndexChanged=Yes
 17	ו	ו	CCONJ	CCONJ	_	18	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 18	רעים	רע	ADJ	ADJ	Gender=Masc|Number=Plur	16	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 164
 # source = רשי_לתורה
@@ -7106,8 +6780,6 @@
 20	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 21	למטה	למטה	ADV	ADV	_	18	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 165
 # source = רשי_לתורה
 # text = הנני מוכן להסכים עם אותם שזרזוני ואמרו לפני כבר מה אנוש כי תזכרנו
@@ -7135,8 +6807,6 @@
 18-19	תזכרנו	_	_	_	_	_	_	_	IndexChanged=Yes
 18	תזכר	זכר	VERB	VERB	Gender=Masc|Number=Sing|Person=2|Tense=Fut	15	advcl	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 19	נו	הוא	PRON	PRON	_	18	obj	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 166
 # source = רשי_לתורה
@@ -7166,8 +6836,6 @@
 17	ל	ל	ADP	ADP	_	18	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 18	חיי	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 19	נח	נח	PROPN	PROPN	Gender=Masc|Number=Sing	18	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 167
 # source = רשי_לתורה
@@ -7206,8 +6874,6 @@
 24	ה	ה	DET	DET	_	25	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 25	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 168
 # source = רשי_לתורה
 # text = אין יום ראשון מן המנין לפי שאין לילו עמו
@@ -7228,8 +6894,6 @@
 12-13	עמו	_	_	_	_	_	_	_	IndexChanged=Yes
 12	עמ	עם	ADP	ADP	_	13	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 13	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	6	advcl	_	IndexChanged=Yes
-
-
 
 # sent_id = 169
 # source = רשי_לתורה
@@ -7270,8 +6934,6 @@
 25	אות	את	ADP	ADP	_	26	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 26	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	24	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 170
 # source = רשי_לתורה
 # text = מכאן אתה למד שהיתה התיבה משוקעת במים י"א אמה
@@ -7292,8 +6954,6 @@
 11	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	IndexChanged=Yes
 12	י"א	י"א	NUM	NUM	_	13	nummod	_	IndexChanged=Yes|DepHeadChanged=Yes
 13	אמה	אמה	NOUN	NOUN	Gender=Fem|Number=Sing	9	advmod	_	IndexChanged=Yes
-
-
 
 # sent_id = 171
 # source = רשי_לתורה
@@ -7328,8 +6988,6 @@
 23	לשון	לשון	NOUN	NOUN	Gender=Fem|Number=Sing	7	advcl	_	IndexChanged=Yes
 24	נקבה	נקבה	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 172
 # source = רשי_לתורה
 # text = אף על פי שהתרתי לכם נטילת נשמה בבהמה את דמכם אדרוש מהשופך דם עצמו
@@ -7359,8 +7017,6 @@
 19	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj:part	_	IndexChanged=Yes|DepHeadChanged=Yes
 20	עצמו	עצמו	PRON	PRON	Reflex=Yes	19	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 173
 # source = רשי_לתורה
 # text = מיד ההורג במזיד ואין עדים אני אדרוש
@@ -7377,8 +7033,6 @@
 8	עדים	עד	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
 9	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	10	nsubj	_	_
 10	אדרוש	דרש	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Fut	0	root	_	_
-
-
 
 # sent_id = 174
 # source = רשי_לתורה
@@ -7407,8 +7061,6 @@
 17	ממנ	מן	ADP	ADP	_	18	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 18	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	16	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 175
 # source = רשי_לתורה
 # text = אם יש עדים המיתוהו אתם
@@ -7419,8 +7071,6 @@
 4	המיתו	המית	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Tense=Imp	0	root	_	SegModified=Yes
 5	הו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	4	obj	_	PhantomRemoved=Yes|IndexChanged=Yes
 6	אתם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	4	dislocated	_	IndexChanged=Yes
-
-
 
 # sent_id = 176
 # source = רשי_לתורה
@@ -7445,8 +7095,6 @@
 12	ש	ש	SCONJ	SCONJ	_	13	mark	_	IndexChanged=Yes|DepHeadChanged=Yes
 13	אמרתי	אמר	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	11	acl:relcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 177
 # source = רשי_לתורה
 # text = אף משיגלו בני שם ימכרו להם עבדים מבני כנען
@@ -7466,8 +7114,6 @@
 11	בני	בן	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
 12	כנען	כנען	PROPN	PROPN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
 
-
-
 # sent_id = 178
 # source = רשי_לתורה
 # text = מאלה נפוצו משפחות הרבה
@@ -7477,8 +7123,6 @@
 3	נפוצו	נפוץ	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
 4	משפחות	משפחה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
 5	הרבה	הרבה	DET	DET	_	4	det	_	_
-
-
 
 # sent_id = 179
 # source = רשי_לתורה
@@ -7502,8 +7146,6 @@
 13	חם	חם	PROPN	PROPN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
 14	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	12	cop	_	_
 
-
-
 # sent_id = 180
 # source = רשי_לתורה
 # text = איני יודע אם יפת הגדול אם שם
@@ -7518,8 +7160,6 @@
 7	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	3	ccomp	_	_
 8	אם	אם	SCONJ	SCONJ	_	9	mark	_	_
 9	שם	שם	PROPN	PROPN	_	5	conj	_	_
-
-
 
 # sent_id = 181
 # source = רשי_לתורה
@@ -7544,8 +7184,6 @@
 13-14	העולם	_	_	_	_	_	_	_	_
 13	ה	ה	DET	DET	_	14	det	_	_
 14	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
-
-
 
 # sent_id = 182
 # source = רשי_לתורה
@@ -7613,8 +7251,6 @@
 47	ביני	בין	ADP	ADP	_	48	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 48	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	43	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 183
 # source = רשי_לתורה
 # text = למדת ששנוי המחלוקת וגדול השלום
@@ -7631,8 +7267,6 @@
 8-9	השלום	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	_	9	det	_	_
 9	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj:cop	_	_
-
-
 
 # sent_id = 184
 # source = רשי_לתורה
@@ -7660,8 +7294,6 @@
 17-18	למשא	_	_	_	_	_	_	_	_
 17	ל	ל	ADP	ADP	_	18	case	_	_
 18	משא	משא	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
-
-
 
 # sent_id = 185
 # source = רשי_לתורה
@@ -7697,8 +7329,6 @@
 22	ו	ו	CCONJ	CCONJ	_	23	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 23	דבור	דיבור	NOUN	NOUN	Gender=Masc|Number=Sing	21	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 186
 # source = רשי_לתורה
 # text = אברהם מגייר את האנשים ושרה מגיירת הנשים ומעלה עליהם הכתוב כאילו עשאום
@@ -7729,8 +7359,6 @@
 18	עש	עשה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	12	ccomp	_	SegModified=Yes
 19	אום	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	18	obj	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 187
 # source = רשי_לתורה
 # text = הראהו הר גריזים והר עיבל ששם קבלו ישראל שבועת התורה
@@ -7752,8 +7380,6 @@
 13-14	התורה	_	_	_	_	_	_	_	IndexChanged=Yes
 13	ה	ה	DET	DET	_	14	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 14	תורה	תורה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 188
 # source = רשי_לתורה
@@ -7793,8 +7419,6 @@
 27	בני	בן	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 28	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	27	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 189
 # source = רשי_לתורה
 # text = נתנבא שעתידין בניו להכשל שם על עון עכן והתפלל שם עליהם
@@ -7817,8 +7441,6 @@
 14-15	עליהם	_	_	_	_	_	_	_	IndexChanged=Yes
 14	עלי	על	ADP	ADP	_	15	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 15	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	12	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 190
 # source = רשי_לתורה
@@ -7887,8 +7509,6 @@
 46	נחלת	נחלה	NOUN	NOUN	Gender=Fem|Number=Sing	40	acl:relcl	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 47	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	46	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 191
 # source = רשי_לתורה
 # text = עד עכשיו לא הכיר בה מתוך צניעות שבשניהם ועכשיו הכיר בה על ידי מעשה
@@ -7917,8 +7537,6 @@
 19	ידי	יד	NOUN	NOUN	Gender=Fem|Number=Plur	18	fixed	_	_
 20	מעשה	מעשה	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
 
-
-
 # sent_id = 192
 # source = רשי_לתורה
 # text = מנהג העולם שעל ידי טורח הדרך אדם מתבזה וזאת עמדה ביופיה
@@ -7945,8 +7563,6 @@
 16	יופי	יופי	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	SegModified=Yes
 17	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	16	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 193
 # source = רשי_לתורה
 # text = ופשוטו הנה נא הגיעה השעה שיש לדאוג על יפייך
@@ -7968,8 +7584,6 @@
 13-14	יפייך	_	_	_	_	_	_	_	IndexChanged=Yes
 13	יפיי	יופי	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 14	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	13	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 194
 # source = רשי_לתורה
@@ -8007,8 +7621,6 @@
 26	אשה	אשה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 27	יפה	יפה	ADJ	ADJ	Gender=Fem|Number=Sing	26	amod	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 195
 # source = רשי_לתורה
 # text = הללוה ביניהם לומר הגונה זו אל המלך
@@ -8025,8 +7637,6 @@
 9-10	המלך	_	_	_	_	_	_	_	IndexChanged=Yes
 9	ה	ה	DET	DET	_	10	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 10	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 196
 # source = רשי_לתורה
@@ -8051,8 +7661,6 @@
 13-14	לשם	_	_	_	_	_	_	_	_
 13	ל	ל	ADP	ADP	_	14	case	_	_
 14	שם	שם	ADV	ADV	_	12	obl	_	_
-
-
 
 # sent_id = 197
 # source = רשי_לתורה
@@ -8081,8 +7689,6 @@
 16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
 17	ל	ל	ADP	ADP	_	18	case	_	_
 18	עזר	עזר	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
-
-
 
 # sent_id = 198
 # source = רשי_לתורה
@@ -8113,8 +7719,6 @@
 18	ל	ל	ADP	ADP	_	19	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 19	מערב	מערב	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 199
 # source = רשי_לתורה
 # text = נטה אהלים לרועיו ולמקנהו עד סדום
@@ -8131,8 +7735,6 @@
 9	הו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	8	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 10	עד	עד	ADP	ADP	_	11	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 11	סדום	סדום	PROPN	PROPN	Number=Sing	1	obl	_	IndexChanged=Yes
-
-
 
 # sent_id = 200
 # source = רשי_לתורה
@@ -8153,8 +7755,6 @@
 11	עמ	עם	ADP	ADP	_	12	case	_	SegModified=Yes
 12	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	10	obl	_	_
 
-
-
 # sent_id = 201
 # source = רשי_לתורה
 # text = יודעים רבונם ומתכוונים למרוד בו
@@ -8169,8 +7769,6 @@
 7-8	בו	_	_	_	_	_	_	_	IndexChanged=Yes
 7	ב	ב	ADP	ADP	_	8	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 8	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	6	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 202
 # source = רשי_לתורה
@@ -8195,8 +7793,6 @@
 13	הימנ	מן	ADP	ADP	_	14	case	_	SegModified=Yes
 14	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	12	obl	_	_
 
-
-
 # sent_id = 203
 # source = רשי_לתורה
 # text = כשם שאי אפשר לעפר לימנות כך זרעך לא ימנה
@@ -8215,8 +7811,6 @@
 10	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2	9	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 11	לא	לא	ADV	ADV	_	12	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 12	ימנה	נמנה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	IndexChanged=Yes
-
-
 
 # sent_id = 204
 # source = רשי_לתורה
@@ -8238,8 +7832,6 @@
 11	ה	ה	DET	DET	_	12	det	_	_
 12	מלח	מלח	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
 
-
-
 # sent_id = 205
 # source = רשי_לתורה
 # text = הוא היה בעל המעשה ונכנס בעובי הקורה
@@ -8258,8 +7850,6 @@
 10-11	הקורה	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	_	11	det	_	_
 11	קורה	קורה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
-
-
 
 # sent_id = 206
 # source = רשי_לתורה
@@ -8280,8 +7870,6 @@
 11	טיט	טיט	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
 12	של	של	ADP	ADP	_	13	case	_	_
 13	בניין	בניין	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
-
-
 
 # sent_id = 207
 # source = רשי_לתורה
@@ -8317,8 +7905,6 @@
 22	ל	ל	ADP	ADP	Definite=Def	23	case	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 23	הר	הר	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 208
 # source = רשי_לתורה
 # text = זה עוג שפלט מן המלחמה
@@ -8331,8 +7917,6 @@
 6-7	המלחמה	_	_	_	_	_	_	_	_
 6	ה	ה	DET	DET	_	7	det	_	_
 7	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
-
-
 
 # sent_id = 209
 # source = רשי_לתורה
@@ -8356,8 +7940,6 @@
 12	להעמיד	העמיד	VERB	VERB	VerbForm=Inf	7	ccomp	_	IndexChanged=Yes|DepHeadChanged=Yes
 13	שם	שם	ADV	ADV	_	12	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 14	עגל	עגל	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 210
 # source = רשי_לתורה
@@ -8389,8 +7971,6 @@
 21	להיות	היה	VERB	VERB	VerbForm=Inf	17	acl:relcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 22	שם	שם	ADV	ADV	_	21	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 211
 # source = רשי_לתורה
 # text = כך עושין ליגיעי מלחמה
@@ -8400,8 +7980,6 @@
 3	ל	ל	ADP	ADP	_	4	case	_	PhantomToken=Yes
 4	יגיעי	יגיע	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
 5	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
-
-
 
 # sent_id = 212
 # source = רשי_לתורה
@@ -8430,8 +8008,6 @@
 15	בני	בן	NOUN	NOUN	Gender=Masc|Number=Plur	14	obj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 16	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	15	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 213
 # source = רשי_לתורה
 # text = רמז לו על המנחות ועל הנסכים שיקריבו בניו
@@ -8456,8 +8032,6 @@
 13	בני	בן	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	SegModified=Yes
 14	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	13	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 214
 # source = רשי_לתורה
 # text = על ידי עשייתן קנאן להיות שלו
@@ -8473,8 +8047,6 @@
 8-9	שלו	_	_	_	_	_	_	_	IndexChanged=Yes
 8	של	של	ADP	ADP	_	9	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 9	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	7	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 215
 # source = רשי_לתורה
@@ -8499,8 +8071,6 @@
 14	אחרי	אחר	ADP	ADP	_	13	nsubj	_	_
 15	מופלג	מופלג	ADJ	ADJ	Gender=Masc|Number=Sing	8	conj	_	_
 
-
-
 # sent_id = 216
 # source = רשי_לתורה
 # text = ואילו היה לי בן היה בני ממונה על שלי
@@ -8522,8 +8092,6 @@
 12	של	של	ADP	ADP	_	13	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 13	י	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	10	obl	_	NSent=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 217
 # source = רשי_לתורה
 # text = ולפי אגדה רדף המלכים עד דמשק
@@ -8537,8 +8105,6 @@
 6	מלכים	מלך	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
 7	עד	עד	ADP	ADP	_	8	case	_	_
 8	דמשק	דמשק	PROPN	PROPN	_	4	obl	_	_
-
-
 
 # sent_id = 218
 # source = רשי_לתורה
@@ -8568,8 +8134,6 @@
 16	ב	ב	ADP	ADP	_	17	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 17	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	15	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 219
 # source = רשי_לתורה
 # text = חלק כל אחד לשני חלקים
@@ -8580,8 +8144,6 @@
 4	ל	ל	ADP	ADP	_	6	case	_	_
 5	שני	שתיים	NUM	NUM	Gender=Masc|Number=Dual	6	nummod	_	_
 6	חלקים	חלק	NOUN	NOUN	Gender=Masc|Number=Plur	1	obl	_	_
-
-
 
 # sent_id = 220
 # source = רשי_לתורה
@@ -8613,8 +8175,6 @@
 19	יבוא	בא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	11	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 20	משיח	משיח	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 221
 # source = רשי_לתורה
 # text = ואם תאמר במצרים היו ארבע מאות הרי קהת מיורדי מצרים היה
@@ -8635,8 +8195,6 @@
 12	יורדי	ירד	VERB	VERB	Gender=Masc|Number=Plur	0	root	_	_
 13	מצרים	מצרים	PROPN	PROPN	_	12	compound:smixut	_	_
 14	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	12	cop	_	_
-
-
 
 # sent_id = 222
 # source = רשי_לתורה
@@ -8708,8 +8266,6 @@
 52	לידת	לידה	NOUN	NOUN	Gender=Fem|Number=Sing	49	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 53	משה	משה	PROPN	PROPN	Gender=Masc|Number=Sing	52	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 223
 # source = רשי_לתורה
 # text = אביו עובד עבודה זרה והוא מבשרו שיבא אליו
@@ -8732,8 +8288,6 @@
 12	אלי	אל	ADP	ADP	_	13	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 13	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	11	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 224
 # source = רשי_לתורה
 # text = אלא לימדך שעשה תרח תשובה
@@ -8746,8 +8300,6 @@
 5	עשה	עשה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	2	ccomp	_	IndexChanged=Yes
 6	תרח	תרח	PROPN	PROPN	Gender=Masc|Number=Sing	5	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 7	תשובה	תשובה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 225
 # source = רשי_לתורה
@@ -8797,8 +8349,6 @@
 33	מרד	מרד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	22	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 34	עשיו	עשו	PROPN	PROPN	Gender=Masc|Number=Sing	33	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 226
 # source = רשי_לתורה
 # text = לאחר שיגלו למצרים יהיו שם ג׳ דורות והרביעי ישוב לארץ הזאת שבארץ כנען היה מדבר עמו וכרת ברית זו
@@ -8840,8 +8390,6 @@
 28	ברית	ברית	NOUN	NOUN	Gender=Fem|Number=Sing	27	obj	_	_
 29	זו	זה	PRON	PRON	Gender=Fem|Number=Sing	28	det	_	_
 
-
-
 # sent_id = 227
 # source = רשי_לתורה
 # text = על כל אמירה היה שולח לה מלאך אחר מלאך לכך נאמר מלאך מלאך בכל אמירה ואמירה
@@ -8867,8 +8415,6 @@
 18-19	ואמירה	_	_	_	_	_	_	_	_
 18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
 19	אמירה	אמירה	NOUN	NOUN	Gender=Fem|Number=Sing	17	conj	_	_
-
-
 
 # sent_id = 228
 # source = רשי_לתורה
@@ -8904,8 +8450,6 @@
 23	עמ	עם	ADP	ADP	_	24	case	_	SegModified=Yes
 24	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2	22	obl	_	_
 
-
-
 # sent_id = 229
 # source = רשי_לתורה
 # text = היתה משעבדת בה בקושי
@@ -8917,8 +8461,6 @@
 5-6	בקושי	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
 6	קושי	קושי	NOUN	NOUN	Gender=Masc|Number=Sing	2	advmod	_	_
-
-
 
 # sent_id = 230
 # source = רשי_לתורה
@@ -8941,8 +8483,6 @@
 12-13	ושותק	_	_	_	_	_	_	_	IndexChanged=Yes
 12	ו	ו	CCONJ	CCONJ	_	13	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 13	שותק	שתק	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	9	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 231
 # source = רשי_לתורה
@@ -8986,8 +8526,6 @@
 29	מ	מ	ADP	ADP	_	30	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 30	ביאה	ביאה	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 31	ראשונה	ראשון	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 232
 # source = רשי_לתורה
@@ -9034,8 +8572,6 @@
 30	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 31	ישראל	ישראל	PROPN	PROPN	Gender=Masc|Number=Sing	30	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 233
 # source = רשי_לתורה
 # text = לימד על מי שאין לו בנים שאינו בנוי אלא הרוס
@@ -9056,8 +8592,6 @@
 12	בנוי	בנוי	ADJ	ADJ	Gender=Masc|Number=Sing	1	ccomp	_	_
 13	אלא	אלא	CCONJ	CCONJ	_	14	cc	_	_
 14	הרוס	הרוס	ADJ	ADJ	Gender=Masc|Number=Sing	12	conj	_	_
-
-
 
 # sent_id = 234
 # source = רשי_לתורה
@@ -9094,8 +8628,6 @@
 22	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	NSent=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 23	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 235
 # source = רשי_לתורה
 # text = רמז לו שיפלו המלכיות בגיהנם
@@ -9112,8 +8644,6 @@
 8-9	בגיהנם	_	_	_	_	_	_	_	_
 8	ב	ב	ADP	ADP	_	9	case	_	_
 9	גיהנם	גיהינום	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
-
-
 
 # sent_id = 236
 # source = רשי_לתורה
@@ -9157,8 +8687,6 @@
 28	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 29	ישראל	ישראל	PROPN	PROPN	_	28	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 237
 # source = רשי_לתורה
 # text = מוסיף אני אות על שמך ויהיו מניין אותיותיו רמח כמניין אבריך
@@ -9183,8 +8711,6 @@
 15-16	אבריך	_	_	_	_	_	_	_	IndexChanged=Yes
 15	אברי	אבר	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound:smixut	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 16	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2	15	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 238
 # source = רשי_לתורה
@@ -9222,8 +8748,6 @@
 23	ל	ל	ADP	ADP	_	24	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 24	פטרון	פטרון	NOUN	NOUN	Gender=Masc|Number=Sing	21	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 239
 # source = רשי_לתורה
 # text = לשבחו של ישמעאל נכתב להודיע שהיה בן שלש עשרה שנה כשמל ולא עיכב
@@ -9249,8 +8773,6 @@
 16	ו	ו	CCONJ	CCONJ	_	18	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 17	לא	לא	ADV	ADV	_	18	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 18	עיכב	עיכב	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	10	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 240
 # source = רשי_לתורה
@@ -9291,8 +8813,6 @@
 27	לא	לא	ADV	ADV	_	28	advmod	_	_
 28	חרדה	חרד	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	21	conj	_	_
 
-
-
 # sent_id = 241
 # source = שולחן_ערוך
 # text = קטן היודע להתעטף אביו צריך ליקח לו ציצית לחנכו
@@ -9314,8 +8834,6 @@
 12	לחנכ	חינך	VERB	VERB	VerbForm=Inf	8	advcl	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 13	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	12	obj	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 242
 # source = שולחן_ערוך
 # text = טוב להסתכל בציצית בשעת עטיפה כשמברך
@@ -9331,8 +8849,6 @@
 8-9	כשמברך	_	_	_	_	_	_	_	_
 8	כש	כש	SCONJ	SCONJ	_	9	mark	_	_
 9	מברך	בירך	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	2	advcl	_	_
-
-
 
 # sent_id = 243
 # source = שולחן_ערוך
@@ -9365,8 +8881,6 @@
 21	של	של	ADP	ADP	_	22	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 22	תינוק	תינוק	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod:poss	_	IndexChanged=Yes|DepHeadChanged=Yes
 23	רופס	רופס	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	17	acl:relcl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 244
 # source = שולחן_ערוך
@@ -9418,8 +8932,6 @@
 34	ב	ב	ADP	ADP	_	35	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 35	פרשה	פרשה	NOUN	NOUN	Gender=Fem|Number=Sing	32	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 245
 # source = שולחן_ערוך
 # text = אם כתב כל הארבעה פרשיות בקלף כשרים אפילו אין רווח ביניהם ובלבד שיהא חוט או משיחה בין כל בית ובית
@@ -9455,8 +8967,6 @@
 25-26	ובית	_	_	_	_	_	_	_	_
 25	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
 26	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	24	conj	_	_
-
-
 
 # sent_id = 246
 # source = שולחן_ערוך
@@ -9503,8 +9013,6 @@
 31	של	של	ADP	ADP	_	32	case	_	_
 32	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	28	acl:relcl	_	_
 
-
-
 # sent_id = 247
 # source = שולחן_ערוך
 # text = מותר לכתוב על מקום הגרר ועל מקום המחק אפילו אזכרה
@@ -9524,8 +9032,6 @@
 11	מחק	מחק	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
 12	אפילו	אפילו	ADV	ADV	_	13	advmod	_	_
 13	אזכרה	אזכרה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
-
-
 
 # sent_id = 248
 # source = שולחן_ערוך
@@ -9554,8 +9060,6 @@
 18	שאר	שאר	DET	DET	_	16	obl	_	NSent=Yes
 19	שטרות	שטר	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	_
 
-
-
 # sent_id = 249
 # source = שולחן_ערוך
 # text = ביום ראש חודש יכתוב ביום אחד לירח פלוני
@@ -9573,8 +9077,6 @@
 9	ל	ל	ADP	ADP	_	10	case	_	_
 10	ירח	ירח	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod:tmod	_	_
 11	פלוני	פלוני	NOUN	NOUN	Gender=Masc|Number=Sing	10	appos	_	_
-
-
 
 # sent_id = 250
 # source = שולחן_ערוך
@@ -9614,8 +9116,6 @@
 25	שם	שם	ADV	ADV	_	24	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 26	להתפלל	התפלל	VERB	VERB	VerbForm=Inf	24	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 251
 # source = שולחן_ערוך
 # text = מותר היין אם יש דרך עקלתון שיוכל לבוא עליו פתאום
@@ -9635,8 +9135,6 @@
 11	עלי	על	ADP	ADP	_	12	case	_	SegModified=Yes
 12	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	10	obl	_	_
 13	פתאום	פתאום	ADV	ADV	_	10	advmod	_	_
-
-
 
 # sent_id = 252
 # source = שולחן_ערוך
@@ -9678,8 +9176,6 @@
 29	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	28	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 30	מותרות	מותר	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	IndexChanged=Yes
 
-
-
 # sent_id = 253
 # source = שולחן_ערוך
 # text = ביום ראש חודש יכתוב ביום אחד לירח פלוני
@@ -9697,8 +9193,6 @@
 9	ל	ל	ADP	ADP	_	10	case	_	_
 10	ירח	ירח	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
 11	פלוני	פלוני	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
-
-
 
 # sent_id = 254
 # source = שולחן_ערוך
@@ -9726,8 +9220,6 @@
 16	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	14	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 17	אסור	אסור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	IndexChanged=Yes
 
-
-
 # sent_id = 255
 # source = שולחן_ערוך
 # text = מכר לו סחורה בי"ב על מנת לפורעו לאחר זמן
@@ -9746,8 +9238,6 @@
 10	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	9	obj	_	PhantomRemoved=Yes|IndexChanged=Yes
 11	לאחר	לאחר	ADP	ADP	_	12	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 12	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	IndexChanged=Yes
-
-
 
 # sent_id = 256
 # source = שולחן_ערוך
@@ -9806,8 +9296,6 @@
 37	הרי	הרי	ADV	ADV	_	39	mark	_	IndexChanged=Yes|DepHeadChanged=Yes
 38	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	39	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 39	מותר	מותר	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	IndexChanged=Yes
-
-
 
 # sent_id = 257
 # source = שולחן_ערוך
@@ -9883,8 +9371,6 @@
 51-52	המעות	_	_	_	_	_	_	_	_
 51	ה	ה	DET	DET	_	52	det	_	_
 52	מעות	מעה	NOUN	NOUN	Gender=Fem|Number=Plur	48	obj	_	_
-
-
 
 # sent_id = 258
 # source = שולחן_ערוך
@@ -9984,8 +9470,6 @@
 68	לוקח	לוקח	NOUN	NOUN	Gender=Masc|Number=Sing	69	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 69	אסור	אסור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	IndexChanged=Yes
 
-
-
 # sent_id = 259
 # source = שולחן_ערוך
 # text = היו החיטים במדינה ד סאין בסלע ובכפרים שש בסלע מותר ליתן סלע לתגר כדי שיביא שש סאין מהכפר לזמן פלוני והוא שיהיו באחריות לוקח אם נגנבו או נאבדו בדרך
@@ -10047,8 +9531,6 @@
 43	ב	ב	ADP	ADP	Definite=Def	44	case	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 44	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	42	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 260
 # source = שולחן_ערוך
 # text = מי שיש לו שטר חוב על חבירו או מלוה על פה מותר למכרם לאחר בפחות ואפילו לא הגיע זמן הפרעון ואין בו משום רבית
@@ -10096,8 +9578,6 @@
 32	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	30	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 33	משום	משום	ADP	ADP	_	34	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 34	רבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	30	nsubj:cop	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 261
 # source = שולחן_ערוך
@@ -10172,8 +9652,6 @@
 50	ש	ש	SCONJ	SCONJ	_	51	mark	_	IndexChanged=Yes|DepHeadChanged=Yes
 51	קבל	קיבל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	49	acl:relcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 262
 # source = שולחן_ערוך
 # text = מכר לו שדה ונתן לו מקצת אם אמר ליה מוכר ללוקח קנה כשיעור מעותיך כל אחד מהם אוכל פירות כשיעור מעותיו
@@ -10218,8 +9696,6 @@
 30-31	מעותיו	_	_	_	_	_	_	_	IndexChanged=Yes
 30	מעותי	מעה	NOUN	NOUN	Gender=Fem|Number=Plur	29	compound:smixut	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 31	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	30	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 263
 # source = שולחן_ערוך
@@ -10316,8 +9792,6 @@
 69	ה	ה	DET	DET	_	70	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 70	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	68	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 264
 # source = שולחן_ערוך
 # text = אם יאמר הלוקח אוכלם ואם לא יגמר המקח כשיבוא המוכר להחזיר לי מעותי אנכה דמי הפירות מותר והוא הדין אם המוכר אומר כן
@@ -10368,8 +9842,6 @@
 33	מוכר	מוכר	NOUN	NOUN	Gender=Masc|Number=Sing	34	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 34	אומר	אמר	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	30	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 35	כן	כן	ADV	ADV	_	34	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 265
 # source = שולחן_ערוך
@@ -10424,8 +9896,6 @@
 37	ה	ה	DET	DET	_	38	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 38	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	36	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 266
 # source = שולחן_ערוך
 # text = היו חיטין נמכרות ד סאין בסלע ופסק עמו שיתן לו החטין כשער הזול אם עמדו אחר כך עשר סאין בסלע נותן לו עשר סאין בסלע
@@ -10476,8 +9946,6 @@
 35-36	בסלע	_	_	_	_	_	_	_	IndexChanged=Yes
 35	ב	ב	ADP	ADP	_	36	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 36	סלע	סלע	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 267
 # source = שולחן_ערוך
@@ -10537,8 +10005,6 @@
 39	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	40	aux	_	_
 40	ליתן	נתן	VERB	VERB	VerbForm=Inf	37	ccomp	_	_
 41	מעות	מעה	NOUN	NOUN	Gender=Fem|Number=Plur	40	obj	_	_
-
-
 
 # sent_id = 268
 # source = שולחן_ערוך
@@ -10605,8 +10071,6 @@
 44	ה	ה	DET	DET	_	45	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 45	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	41	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 269
 # source = שולחן_ערוך
 # text = נתן לו המעות סתם ולא פסק עמו כשער הגבוה והוזלו נותן לו כשער שהיו שוים כשנתן לו המעות ומי שחזר מקבל מי שפרע
@@ -10664,8 +10128,6 @@
 37	ש	ש	SCONJ	SCONJ	_	38	mark	_	IndexChanged=Yes|DepHeadChanged=Yes
 38	פרע	פרע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	36	acl:relcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 270
 # source = שולחן_ערוך
 # text = ואם היה שליח לאחרים אינו נוטל אלא כשער הזול או מחזיר דמים ואין השליח ולא המשלח מקבלים מי שפרע
@@ -10709,8 +10171,6 @@
 28	ש	ש	SCONJ	SCONJ	_	29	mark	_	IndexChanged=Yes|DepHeadChanged=Yes
 29	פרע	פרע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	27	acl:relcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 271
 # source = שולחן_ערוך
 # text = אסור לומר לאדם עשה עמי מלאכה היום ששוה דינר ואני אעשה עמך בשבוע אחר מלאכה ששוה שתים
@@ -10745,8 +10205,6 @@
 22	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
 23	שוה	שווה	ADJ	ADJ	Gender=Masc|Number=Sing	21	acl:relcl	_	_
 24	שתים	שתיים	NUM	NUM	Gender=Fem|Number=Dual	23	advmod	_	_
-
-
 
 # sent_id = 272
 # source = שולחן_ערוך
@@ -10820,8 +10278,6 @@
 50	שכר	שכר	NOUN	NOUN	Gender=Masc|Number=Sing	52	nsubj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 51	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	50	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 52	יותר	יותר	ADV	ADV	_	39	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 273
 # source = שולחן_ערוך
@@ -10948,8 +10404,6 @@
 88	ה	ה	DET	DET	_	89	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 89	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	87	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 274
 # source = שולחן_ערוך
 # text = תבעו בחוב אביו והודה לו בחוב עצמו פורע חוב עצמו שהודה בו ונשבע היסת על חוב אביו אם טענו ודאי שהוא יודע שאביו חייב לו
@@ -11008,8 +10462,6 @@
 39	ל	ל	ADP	ADP	_	40	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 40	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	38	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 275
 # source = שולחן_ערוך
 # text = הא דבדברים העשויים להשאיל ולהשכיר בעל הבית נאמן דוקא בשיש לו עדים שהכלים הללו היו שלו וראו אותם עתה בידו
@@ -11060,8 +10512,6 @@
 34	יד	יד	NOUN	NOUN	_	29	obl	_	SegModified=Yes
 35	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	34	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 276
 # source = שולחן_ערוך
 # text = המזיק ממון חברו ואינו יודע כמה הזיק הניזק נשבע כתקנת חכמים ונוטל והוא שיטעון דברים שהוא אמוד בהם כמו שיתבאר בסימן שפח
@@ -11111,8 +10561,6 @@
 32	ב	ב	ADP	ADP	_	33	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 33	סימן	סימן	NOUN	NOUN	Gender=Masc|Number=Sing	31	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 34	שפח	שפח	NUM	NUM	_	33	nummod	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 277
 # source = שולחן_ערוך
@@ -11166,8 +10614,6 @@
 35	ב	ב	ADP	ADP	_	36	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 36	סימן	סימן	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 37	שפח	שפח	NUM	NUM	_	36	nummod	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 278
 # source = שולחן_ערוך
@@ -11244,8 +10690,6 @@
 53	ה	ה	DET	DET	_	54	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 54	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	52	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 279
 # source = שולחן_ערוך
 # text = המדיר את אשתו נדר שהוא חייב בגללו לגרשה וליתן כתובתה ונשבית אחר שהדירה אינו חייב לפדותה שמשעה שהדירה נתחייב לגרשה וליתן לה כתובתה
@@ -11308,8 +10752,6 @@
 41	כתובת	כתובה	NOUN	NOUN	Gender=Fem|Number=Sing	38	obj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 42	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	41	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 280
 # source = שולחן_ערוך
 # text = מים של נטילת ידים שחרית אסור ליהנות מהם ולא ישפכם בבית ולא במקום שעוברים שם בני אדם
@@ -11344,8 +10786,6 @@
 22	שם	שם	ADV	ADV	_	21	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 23	בני	בן	NOUN	NOUN	Gender=Masc|Number=Plur	21	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 24	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 281
 # source = שולחן_ערוך
@@ -11418,8 +10858,6 @@
 47	גלות	גלות	NOUN	NOUN	Gender=Fem|Number=Sing	43	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 48	רצויה	רצוי	ADJ	ADJ	Gender=Fem|Number=Sing	7	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 282
 # source = שולחן_ערוך
 # text = הלובש טלית קטן ומברך עליו וכשהולך לבית הכנסת מתעטף בטלית גדול צריך לברך עליו דהליכה מביתו לבית הכנסת חשיבא הפסק
@@ -11469,8 +10907,6 @@
 32	כנסת	כנסת	NOUN	NOUN	Gender=Fem|Number=Sing	30	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 33	חשיבא	חשיב	VERB	VERB	Gender=Fem|Number=Sing|Person=3	20	advcl	_	IndexChanged=Yes
 34	הפסק	הפסק	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 283
 # source = שולחן_ערוך
@@ -11524,8 +10960,6 @@
 34-35	בטלית	_	_	_	_	_	_	_	IndexChanged=Yes
 34	ב	ב	ADP	ADP	_	35	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 35	טלית	טלית	NOUN	NOUN	Gender=Fem|Number=Sing	31	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 284
 # source = שולחן_ערוך
@@ -11680,8 +11114,6 @@
 108	הנאותי	הנאה	NOUN	NOUN	Gender=Fem|Number=Plur	107	obj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 109	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	108	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 285
 # source = שולחן_ערוך
 # text = אדם שהוא עלול לנזילות ואם יצטרך להניח תפלה של ראש על בשרו לא יניחם כלל יש להתיר לו להניח תפלה של ראש על הכובע דק הסמוך לראש ויכסם מפני הרואים
@@ -11739,8 +11171,6 @@
 41	ה	ה	DET	DET	_	42	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 42	רואים	ראה	VERB	VERB	Gender=Masc|Number=Plur	38	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 286
 # source = שולחן_ערוך
 # text = עכשיו מפני שאין הידים נקיות וגם מפני עמי הארצות שאינם יודעים אותם נהגו לסדרם בבית הכנסת ועונין אמן אחריהם ויוצאים ידי חובתן
@@ -11793,8 +11223,6 @@
 34	חובת	חובה	NOUN	NOUN	Gender=Fem|Number=Sing	33	compound:smixut	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 35	ן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3	34	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 287
 # source = שולחן_ערוך
 # text = לא יקרא פסוקים קודם ברכת התורה אף על פי שהוא אומרם דרך תחנונים
@@ -11817,8 +11245,6 @@
 14	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	13	obj	_	PhantomRemoved=Yes|IndexChanged=Yes
 15	דרך	דרך	NOUN	NOUN	_	13	obl:unmarked	_	IndexChanged=Yes
 16	תחנונים	תחנון	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 288
 # source = שולחן_ערוך
@@ -11908,8 +11334,6 @@
 63	שיעור	שיעור	NOUN	NOUN	Gender=Masc|Number=Sing	59	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 64	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	63	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 289
 # source = שולחן_ערוך
 # text = אם אינו כותב מתוך הכתב לא יכתוב על פה שמקרא אותו אחר אלא אם כן יחזור הוא ויקרא בפיו
@@ -11946,8 +11370,6 @@
 25	פי	פה	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	SegModified=Yes
 26	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	25	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes
 
-
-
 # sent_id = 290
 # source = שולחן_ערוך
 # text = אותיות השם צריך שיהיו כולם בתוך הדף ולא יצא מהם כלל חוץ לדף
@@ -11978,8 +11400,6 @@
 19-20	לדף	_	_	_	_	_	_	_	IndexChanged=Yes
 19	ל	ל	ADP	ADP	Definite=Def	20	case	_	PhantomRemoved=Yes|DepHeadChanged=Yes
 20	דף	דף	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	IndexChanged=Yes
-
-
 
 # sent_id = 291
 # source = שולחן_ערוך
@@ -12050,8 +11470,6 @@
 49	כנסת	כנסת	NOUN	NOUN	Gender=Fem|Number=Sing	47	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 50	מותר	מותר	ADJ	ADJ	_	3	conj	_	IndexChanged=Yes
 
-
-
 # sent_id = 292
 # source = שולחן_ערוך
 # text = לא יתפלל במקום פרוץ כמו בשדה מפני שכשהוא במקום צניעות חלה עליו אימת מלך ולבו נשבר
@@ -12085,8 +11503,6 @@
 22	לב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 23	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	22	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 24	נשבר	נשבר	VERB	VERB	Gender=Masc|Number=Sing	16	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 293
 # source = שולחן_ערוך
@@ -12131,8 +11547,6 @@
 29	נכנס	נכנס	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	23	advcl	_	_
 30	להתפלל	התפלל	VERB	VERB	VerbForm=Inf	29	xcomp	_	_
 
-
-
 # sent_id = 294
 # source = שולחן_ערוך
 # text = מצוה לרוץ כשהולך לבית הכנסת וכן לכל דבר מצוה אפילו בשבת שאסור לפסוע פסיעה גסה אבל כשיוצא מבית הכנסת אסור לרוץ
@@ -12175,8 +11589,6 @@
 28	כנסת	כנסת	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
 29	אסור	אסור	AUX	AUX	_	1	conj	_	_
 30	לרוץ	רץ	VERB	VERB	VerbForm=Inf	29	csubj	_	_
-
-
 
 # sent_id = 295
 # source = שולחן_ערוך
@@ -12231,8 +11643,6 @@
 37	ב	ב	ADP	ADP	_	38	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 38	י'	י	NUM	NUM	_	36	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 320
 # source = שולחן_ערוך
 # text = אמר לעשרה כתבו וחתמו ותנו גט לאשתי אחד כותב ושנים חותמים ואחד נותן
@@ -12262,8 +11672,6 @@
 18	ו	ו	CCONJ	CCONJ	_	20	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 19	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	20	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 20	נותן	נתן	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	14	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 296
 # source = שולחן_ערוך
@@ -12300,8 +11708,6 @@
 22	ב	ב	ADP	ADP	Definite=Def	23	case	_	PhantomRemoved=Yes|DepHeadChanged=Yes
 23	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	IndexChanged=Yes
 
-
-
 # sent_id = 297
 # source = שולחן_ערוך
 # text = שכיב מרע שמצוה לכתוב גט צריך לדקדק בו שיהא שפוי בשעת כתיבה ובשעת נתינה
@@ -12330,8 +11736,6 @@
 18	ב	ב	ADP	ADP	_	19	case	_	_
 19	שעת	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	15	conj	_	_
 20	נתינה	נתינה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
-
-
 
 # sent_id = 298
 # source = שולחן_ערוך
@@ -12383,8 +11787,6 @@
 36	תרין	תרי	NUM	NUM	Gender=Masc|Number=Dual	37	nummod	_	IndexChanged=Yes|DepHeadChanged=Yes
 37	הן	הן	NOUN	NOUN	_	34	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 299
 # source = שולחן_ערוך
 # text = אם הרכין בראשו על לאו לאו ועל הן הן הרי אלו יכתבו ויתנו
@@ -12408,8 +11810,6 @@
 16-17	ויתנו	_	_	_	_	_	_	_	IndexChanged=Yes
 16	ו	ו	CCONJ	CCONJ	_	17	cc	_	IndexChanged=Yes|DepHeadChanged=Yes
 17	יתנו	נתן	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	15	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 300
 # source = שולחן_ערוך
@@ -12461,8 +11861,6 @@
 34	ה	ה	DET	DET	_	35	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 35	טס	טס	NOUN	NOUN	Gender=Masc|Number=Sing	33	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 301
 # source = שולחן_ערוך
 # text = נוהגין לעשות שיטה שלשה עשר וחולקים אותה לשתים שבה חותמים העדים זה תחת זה
@@ -12492,8 +11890,6 @@
 19	תחת	תחת	ADP	ADP	_	18	case	_	_
 20	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	18	orphan	_	_
 
-
-
 # sent_id = 302
 # source = שולחן_ערוך
 # text = נוהגין שלא יהיו האותיות עוברות מהשיטין בימין ובשמאל
@@ -12517,8 +11913,6 @@
 13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
 14	ב	ב	ADP	ADP	_	15	case	_	_
 15	שמאל	שמאל	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
-
-
 
 # sent_id = 303
 # source = שולחן_ערוך
@@ -12555,8 +11949,6 @@
 24	ישראל	ישראל	PROPN	PROPN	Gender=Masc|Number=Sing	22	conj	_	Cite=Yes
 25	לבד	לבד	ADV	ADV	_	21	advmod	_	_
 
-
-
 # sent_id = 304
 # source = שולחן_ערוך
 # text = ואם יש לאחד מהם שתי שמות כותבין שם שהם רגילים בו ויודעים בו ביותר
@@ -12589,8 +11981,6 @@
 20	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	18	obl	_	_
 21	ביותר	ביותר	ADV	ADV	_	18	advmod	_	_
 
-
-
 # sent_id = 305
 # source = שולחן_ערוך
 # text = כותבין שם האיש והאשה בגט
@@ -12606,8 +11996,6 @@
 8-9	בגט	_	_	_	_	_	_	_	_
 8	ב	ב	ADP	ADP	_	9	case	_	_
 9	גט	גט	NOUN	NOUN	Gender=Masc|Number=Sing	1	obl	_	_
-
-
 
 # sent_id = 306
 # source = שולחן_ערוך
@@ -12734,8 +12122,6 @@
 91	שם	שם	ADV	ADV	_	85	acl:relcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 92	כשר	כשר	ADJ	ADJ	Gender=Masc|Number=Sing	45	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 307
 # source = שולחן_ערוך
 # text = יהיו שם שני עדי החתימה בשעה שמתחיל לכתוב הגט כדי שידעו שנכתב לשמה ויכירוהו בשעת חתימה
@@ -12775,8 +12161,6 @@
 25	שעת	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	IndexChanged=Yes|DepHeadChanged=Yes
 26	חתימה	חתימה	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 308
 # source = שולחן_ערוך
 # text = צריך שיהיו גם החתימות יבשות בשעת נתינת הגט
@@ -12796,8 +12180,6 @@
 11-12	הגט	_	_	_	_	_	_	_	_
 11	ה	ה	DET	DET	_	12	det	_	_
 12	גט	גט	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
-
-
 
 # sent_id = 309
 # source = שולחן_ערוך
@@ -12837,8 +12219,6 @@
 25	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	26	nsubj	_	_
 26	גט	גט	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 27	כשר	כשר	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
-
-
 
 # sent_id = 310
 # source = שולחן_ערוך
@@ -12975,8 +12355,6 @@
 103	אמותי	אמה	NOUN	NOUN	Gender=Fem|Number=Plur	100	obl	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 104	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	103	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 311
 # source = שולחן_ערוך
 # text = בא הוא תחלה ועמד ואחר כך עמדה היא כנגדו וזרקו לה אם היה הגט בתוך ארבע אמות שלו אינה מגורשת אף על פי שאם תשוח תטלנו
@@ -13027,8 +12405,6 @@
 36-37	תטלנו	_	_	_	_	_	_	_	IndexChanged=Yes
 36	תטל	נטל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	29	advcl	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 37	נו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	36	obj	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 312
 # source = שולחן_ערוך
@@ -13089,8 +12465,6 @@
 42	יד	יד	ADP	ADP	Gender=Fem|Number=Sing	43	case	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 43	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	38	obl	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 313
 # source = שולחן_ערוך
 # text = קטנה אפילו אין לה אב או שנשאת אינה יכולה לעשות שליח קבלה אבל אביה יכול לעשותו אם היא ארוסה
@@ -13121,8 +12495,6 @@
 21	אם	אם	SCONJ	SCONJ	_	22	mark	_	IndexChanged=Yes|DepHeadChanged=Yes
 22	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	23	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 23	ארוסה	ארוס	NOUN	NOUN	Gender=Fem|Number=Sing	19	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 314
 # source = שולחן_ערוך
@@ -13182,8 +12554,6 @@
 40-41	גיטה	_	_	_	_	_	_	_	IndexChanged=Yes
 40	גיט	גט	NOUN	NOUN	Gender=Masc|Number=Sing	39	obj	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 41	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	40	nmod:poss	_	PhantomRemoved=Yes|IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 315
 # source = שולחן_ערוך
@@ -13343,8 +12713,6 @@
 117	אינ	אין	ADV	ADV	Gender=Fem|Number=Sing|Person=3	119	advmod	_	SegModified=Yes|IndexChanged=Yes|DepHeadChanged=Yes
 118	ה	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	119	nsubj	_	IndexChanged=Yes|DepHeadChanged=Yes
 119	מגורשת	גורש	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part	57	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 316
 # source = שולחן_ערוך
@@ -13536,8 +12904,6 @@
 138	לא	לא	ADV	ADV	_	139	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 139	נתגרשה	התגרש	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	131	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 317
 # source = שולחן_ערוך
 # text = היה השליח קטן כשנתנו לו הגט והגדיל והביאו או חרש ונתפקח שוטה ונשתפה עבד ונשתחרר עובד כוכבים ונתגייר פסול אבל אם נתן לו הגט כשהוא פקח ונתחרש וחזר ונתפקח שפוי ונשתטה וחזר ונשתפה כשר כיון שתחלתו וסופו בכשרות
@@ -13628,8 +12994,6 @@
 63	ב	ב	ADP	ADP	_	64	case	_	IndexChanged=Yes|DepHeadChanged=Yes
 64	כשרות	כשרות	NOUN	NOUN	Gender=Fem|Number=Sing	55	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 
-
-
 # sent_id = 318
 # source = שולחן_ערוך
 # text = אחד מהשותפין שלקח מסחורת השותפות בעצת שותפו להוליכה למקום אחר למכור וכשבאו לחשבון רוצה ליטול מהשותפות הוצאות מזונותיו אין שומעין לו אלא אם כן יש שם מנהג
@@ -13689,8 +13053,6 @@
 41	יש	יש	VERB	VERB	_	35	advcl	_	IndexChanged=Yes|DepHeadChanged=Yes
 42	שם	שם	ADV	ADV	_	41	advmod	_	IndexChanged=Yes|DepHeadChanged=Yes
 43	מנהג	מנהג	NOUN	NOUN	Gender=Masc|Number=Sing	41	nsubj:cop	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
 # sent_id = 319
 # source = שולחן_ערוך
@@ -13780,6 +13142,4 @@
 62-63	המשלח	_	_	_	_	_	_	_	IndexChanged=Yes
 62	ה	ה	DET	DET	_	63	det	_	IndexChanged=Yes|DepHeadChanged=Yes
 63	משלח	משלח	NOUN	NOUN	Gender=Masc|Number=Sing	59	conj	_	IndexChanged=Yes|DepHeadChanged=Yes
-
-
 
