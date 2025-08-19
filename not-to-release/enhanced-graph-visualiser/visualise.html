@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>UD Annotation and Visualization</title>
+    <link rel="root" href="./lib" />
+    <!-- for JS -->
+    <link rel="stylesheet" type="text/css" href="./lib/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./lib/css/style-vis.css" />
+    <script type="text/javascript" src="./lib/ext/head.load.min.js"></script>
+</head>
+
+<body>
+    <div id="content" style="margin-bottom: 200px;">
+        <center>
+            <a href="https://sites.google.com/icmc.usp.br/poetisa" target="_blank"><img src="https://souelvis.dev/ui-verbobrasil/img/logos.png"></a>
+            <h1>UD Annotation and Visualization</h1>
+            <p>Upload a CoNLL-U file or paste a sentence annotation in the box below to visualize its syntax tree and enhanced graph annotation.<br>Edit the annotation from the box or in table mode and export the treebank with the modified annotation.</p>
+            <p>Forked from <a href="https://jonorthwash.github.io/visualise.html" target="_blank">Jonorthwash</a> by <a target="_blank" href="https://souelvis.dev/sobre">Elvis de Souza</a>.<br>Only tested for sentences encoded in the CoNLL-U format.</p>
+        </center>
+
+        <hr>
+
+        <p>
+            Load corpus from file:
+            <input type="file" id="filename" onclick="$('#filename').val('')">
+        </p>
+        <p>
+            Export corpus to file:
+            <input disabled type="button" value="Choose File..." id="exportBtn" onclick="javascript:exportCorpora();" />
+            <br>
+            Export graph to SVG:
+            <input type="button" value="Export SVG" id="exportSvgBtn" onclick="javascript:exportSVG();" />
+        </p>
+
+        <hr>
+        
+        CoNLL-U Display Mode: <select id="annoMode"><option value="indata">text</option><option value="indataTable">table</option></select>
+
+        <br>
+        
+        <!--input disabled type="button" value="Update Visualization (Ctrl+Enter)" id="updateVisBtn" onclick="javascript:keyUpFunc();" /-->
+        <br>Show in the graph:
+        <br><label><input type="checkbox" id="basicDep" checked />Basic dependencies</label>
+        <br><label><input type="checkbox" id="enhancedDep" checked />Enhanced dependencies</label>
+        <br><label><input type="checkbox" id="onlyMultipleEnhanced" />Only the enhanced deps with multiple labels</label>
+        <br><label><input type="checkbox" id="onlyHighlighted" disabled />Only dependencies from highlighted tokens</label>
+        <br><br>Highlight Tokens: <input type="text" id="highlight" /> (comma-separated, highlights tokens in table mode and in the graph visualization based on any piece of string)
+        
+        <hr>
+
+        <input disabled type="button" value="Previous Sentence (Ctrl Alt ← )" id="prevSenBtn" onclick="javascript:prevSenSent();" />
+        <input disabled type="button" value="Next Sentence (Ctrl Alt →)" id="nextSenBtn" onclick="javascript:nextSenSent();" />
+        <span class="sentence-controls">Current Sentence: <span id="currentsen">00</span> / <span id="totalsen">00</span></span>
+        <span class="sentence-controls">
+            Jump to (sent. no. or sent_id): <input disabled type="text" id="jumpText" style="width:200px"> <input disabled type="button" id="jumpGo" value="Go">
+        </span>
+        <hr>
+
+        <table class="annoField" id="indataTable" style="margin:auto; display:none">
+            
+        </table>
+        
+        <textarea class="annoField" spellcheck="false" id="indata" style="width: 100%;" rows="20"></textarea>
+
+        <hr>
+        
+        <h3>Glosses</h3>
+        <p>Enter glosses for each word (tab-separated or one per line):</p>
+        <textarea id="glossInput" style="width: 100%;" rows="3" placeholder="Enter glosses separated by tabs or new lines..."></textarea>
+        <br>
+        <button onclick="updateGlossTable(); addGlossesToVisualization(); addDebugMessage('Manual update triggered');" style="margin: 10px 0;">Force Update Glosses</button>
+        <button onclick="testSVGGloss(); addDebugMessage('Test SVG gloss added');" style="margin: 10px 0;">Test SVG</button>
+        <br>
+        
+        <div id="debugOutput" style="background: #f0f0f0; border: 1px solid #ccc; padding: 10px; margin: 10px 0; max-height: 200px; overflow-y: scroll; font-family: monospace; font-size: 12px;">
+            <strong>Debug Output:</strong><br>
+        </div>
+        
+        <h4>Word-Gloss Alignment</h4>
+        <table id="glossTable" style="border-collapse: collapse; width: 100%; margin-bottom: 20px;">
+            <thead>
+                <tr style="background-color: #f0f0f0;">
+                    <th style="border: 1px solid #ccc; padding: 8px;">Word</th>
+                    <th style="border: 1px solid #ccc; padding: 8px;">Gloss</th>
+                </tr>
+            </thead>
+            <tbody id="glossTableBody">
+                <!-- Table rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+
+        <p>
+            
+        </p>
+
+        <pre>
+            <code id="dest" class="language-sdparse" tabs="yes">
+            </code>
+        </pre>
+
+    </div>
+
+    <!-- support for embedded visualizations -->
+    <script type="text/javascript" src="./lib/ext/body.load.js"></script>    
+    <style>
+        .sentence-controls {
+            background-color: lightgray;
+            padding:5px;
+            border-radius:5px;
+        }
+        svg { 
+            zoom: 1.2;
+            padding-bottom: 10px; 
+            padding-top: 10px; 
+            background-color: white;    
+        }
+        .sentnum { display: none }
+        .embedding { cursor: grab; /* Makes it look draggable */ }
+        .embedding:active { cursor: grabbing; }
+        .embedding .span { cursor: default; /* Ensures span inside .embedding is not draggable */ }
+        .embedding {
+            user-select: none; /* Prevents text selection */
+            -webkit-user-select: none; /* For Safari */
+            -ms-user-select: none; /* For Internet Explorer/Edge */
+        }
+    </style>
+    
+    <script>
+    // Function to add debug messages to the webpage
+    function addDebugMessage(message) {
+        var debugDiv = $('#debugOutput');
+        var timestamp = new Date().toLocaleTimeString();
+        debugDiv.append('<span style="color: #666;">[' + timestamp + ']</span> ' + message + '<br>');
+        debugDiv.scrollTop(debugDiv[0].scrollHeight);
+        console.log(message); // Also log to console if available
+    }
+    
+    $(document).ready(function() {
+        addDebugMessage("=== GLOSS DEBUG INFO ===");
+        addDebugMessage("Gloss input element found: " + ($('#glossInput').length > 0));
+        addDebugMessage("Gloss table body found: " + ($('#glossTableBody').length > 0));
+        addDebugMessage("updateGlossTable function: " + (typeof updateGlossTable));
+        addDebugMessage("addGlossesToVisualization function: " + (typeof addGlossesToVisualization));
+        addDebugMessage("BRAT Dispatcher available: " + (typeof Dispatcher !== 'undefined'));
+        
+        // Enhanced event listener with debugging
+        $('#glossInput').off('input').on('input', function() {
+            addDebugMessage("Gloss input changed, value: " + $(this).val());
+            addDebugMessage("Triggering updateGlossTable...");
+            try {
+                updateGlossTable();
+                addDebugMessage("updateGlossTable completed successfully");
+            } catch (error) {
+                addDebugMessage("ERROR in updateGlossTable: " + error);
+            }
+        });
+        
+        // Debug BRAT integration
+        setTimeout(function() {
+            addDebugMessage("After 2 seconds:");
+            addDebugMessage("SVG found: " + $('.embedding svg').length);
+            addDebugMessage("Text groups: " + $('.embedding svg g.text').length);
+            addDebugMessage("Current glosses: " + (typeof currentGlosses !== 'undefined' ? JSON.stringify(currentGlosses) : 'undefined'));
+        }, 2000);
+    });
+    </script>
+</body>
+</html>
