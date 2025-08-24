@@ -11,7 +11,7 @@ Script for converting TSV files generated from the tagging staff's internal spre
 Usage:
 
 ```
-python convert_from_gsheet_tsv.py -i input_file -o output_file [-l log_file]
+python convert_from_gsheet_tsv.py -i input_file -o output_file [-l log_file] [--save-htb]
 ```
 
 The conversion pipeline performs the following steps:
@@ -20,6 +20,7 @@ The conversion pipeline performs the following steps:
 2. Fixes token IDs and ranges.
 3. **Converts to IAHLT segmentation (removes phantom tokens).**
 4. Validates the resulting CoNLL-U file.
+5. The optional `--save-htb` flag saves a pre-IAHLT version of the output file with `_htb` added before the extension.
 
 ### `replace_literal_unicode.py`
 
@@ -60,6 +61,18 @@ Usage:
 ```
 python conllu_fixer2.py -i input_file -o output_file [-l log_file]
 ```
+
+### `iahlt_converter.py`
+
+Script for converting CoNLL-U files to IAHLT segmentation format by removing phantom tokens. This is used to produce files in the IAHLT segmentation scheme, which is required for certain downstream processing and evaluation tasks.
+
+Usage:
+
+```
+python iahlt_converter.py -i input_file -o output_file [-d]
+```
+
+- The optional `-d` or `--debug` flag enables debug mode, which adds extra information to the MISC field about changes made during conversion.
 
 ## Development Notes
 
