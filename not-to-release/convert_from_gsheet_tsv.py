@@ -12,6 +12,7 @@ from pathlib import Path
 # Import functions from other scripts
 from run_through_conllu import validate_conllu_file
 from CoNNLU_Fixing.conllu_fixer2 import process_conllu_file as fix_conllu_file
+from iahlt_converter import convert_all_sentences_to_iahlt  # <-- import IAHLT conversion
 
 # Pre-compiled regex patterns for better performance
 ID_PATTERN = re.compile(r'^\d+(?:\+\d+)?(?:-\d+(?:\+\d+)?)?$')
@@ -158,7 +159,7 @@ def normalize_file_content(content):
     
     return ''.join(normalized_lines)
 
-def convert_file(input_file, output_file, log_file=None):
+def convert_file(input_file, output_file, log_file=None, save_htb=False):
     """Convert Google Sheets TSV to CoNLL-U format"""
     try:
         # Read input file with explicit encoding
@@ -183,7 +184,33 @@ def convert_file(input_file, output_file, log_file=None):
             except Exception as e:
                 logger.error(f"Error during CoNLL-U fixing: {e}")
                 return 1
-            
+
+            # --- Save pre-IAHLT version if requested ---
+            if save_htb:
+                base, ext = os.path.splitext(output_file)
+                htb_path = base + '_htb' + ext
+                try:
+                    with open(temp_path, 'r', encoding='utf-8') as f:
+                        pre_iahlt_content = f.read()
+                    with open(htb_path, 'w', encoding='utf-8', newline='\n') as f:
+                        f.write(pre_iahlt_content)
+                    logger.info(f"Saved pre-IAHLT version to {htb_path}")
+                except Exception as e:
+                    logger.error(f"Error saving pre-IAHLT output: {e}")
+                    # Not fatal, continue
+
+            # --- IAHLT conversion step ---
+            try:
+                with open(temp_path, 'r', encoding='utf-8') as f:
+                    conllu_string = f.read()
+                iahlt_sentences = convert_all_sentences_to_iahlt(conllu_string)
+                with open(temp_path, 'w', encoding='utf-8') as f:
+                    for sentence in iahlt_sentences:
+                        f.write(sentence)
+            except Exception as e:
+                logger.error(f"Error during IAHLT conversion: {e}")
+                return 1
+
             # Run validation directly
             try:
                 validation_success = validate_conllu_file(temp_path, log_file)
@@ -193,7 +220,7 @@ def convert_file(input_file, output_file, log_file=None):
             except Exception as e:
                 logger.error(f"Error during CoNLL-U validation: {e}")
                 return 1
-            
+
             # Read the processed content back
             with open(temp_path, 'r', encoding='utf-8') as f:
                 final_content = f.read()
@@ -224,13 +251,14 @@ def main():
     parser.add_argument("-i", "--input", required=True, help="Input TSV file")
     parser.add_argument("-o", "--output", required=True, help="Output CoNLL-U file")
     parser.add_argument("-l", "--log", help="Log file (optional)")
+    parser.add_argument("--save-htb", action="store_true", help="Save pre-IAHLT version as output file with '_htb' before extension", default=False)
     args = parser.parse_args()
     
     # Setup logging
     setup_logger(args.log)
     
     # Run conversion
-    result = convert_file(args.input, args.output, args.log)
+    result = convert_file(args.input, args.output, args.log, save_htb=args.save_htb)
     
     # Return appropriate exit code
     return result
