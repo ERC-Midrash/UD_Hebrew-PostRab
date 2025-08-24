@@ -4,15 +4,22 @@ This folder contains utility scripts for processing and managing CoNLL-U formatt
 
 ## Scripts Overview
 
-### `convert_from_gsheet_tsv.py` (not yet implemented)
+### `convert_from_gsheet_tsv.py`
 
-Script for converting TSV files generated from the tagging staff's internal spreadsheet into proper CoNLL-U format. This utility streamlines the workflow from Google Sheets-based annotation to the standard CoNLL-U format required for the Universal Dependencies corpus. It integrates functionality from both the CoNLL-U fixer and validation scripts for a seamless conversion process.
+Script for converting TSV files generated from the tagging staff's internal spreadsheet into proper CoNLL-U format. This utility streamlines the workflow from Google Sheets-based annotation to the standard CoNLL-U format required for the Universal Dependencies corpus. The pipeline includes normalization, fixing, **conversion to IAHLT segmentation (removal of phantom tokens)**, and validation for a seamless conversion process.
 
 Usage:
 
 ```
 python convert_from_gsheet_tsv.py -i input_file -o output_file [-l log_file]
 ```
+
+The conversion pipeline performs the following steps:
+
+1. Normalizes TSV content.
+2. Fixes token IDs and ranges.
+3. **Converts to IAHLT segmentation (removes phantom tokens).**
+4. Validates the resulting CoNLL-U file.
 
 ### `replace_literal_unicode.py`
 

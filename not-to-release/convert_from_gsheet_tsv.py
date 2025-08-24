@@ -12,6 +12,7 @@ from pathlib import Path
 # Import functions from other scripts
 from run_through_conllu import validate_conllu_file
 from CoNNLU_Fixing.conllu_fixer2 import process_conllu_file as fix_conllu_file
+from iahlt_converter import convert_all_sentences_to_iahlt  # <-- import IAHLT conversion
 
 # Pre-compiled regex patterns for better performance
 ID_PATTERN = re.compile(r'^\d+(?:\+\d+)?(?:-\d+(?:\+\d+)?)?$')
@@ -183,7 +184,20 @@ def convert_file(input_file, output_file, log_file=None):
             except Exception as e:
                 logger.error(f"Error during CoNLL-U fixing: {e}")
                 return 1
-            
+
+            # --- IAHLT conversion step ---
+            try:
+                with open(temp_path, 'r', encoding='utf-8') as f:
+                    conllu_string = f.read()
+                iahlt_sentences = convert_all_sentences_to_iahlt(conllu_string)
+                with open(temp_path, 'w', encoding='utf-8') as f:
+                    for sentence in iahlt_sentences:
+                        f.write(sentence)
+                        f.write("\n\n")
+            except Exception as e:
+                logger.error(f"Error during IAHLT conversion: {e}")
+                return 1
+
             # Run validation directly
             try:
                 validation_success = validate_conllu_file(temp_path, log_file)
@@ -193,7 +207,7 @@ def convert_file(input_file, output_file, log_file=None):
             except Exception as e:
                 logger.error(f"Error during CoNLL-U validation: {e}")
                 return 1
-            
+
             # Read the processed content back
             with open(temp_path, 'r', encoding='utf-8') as f:
                 final_content = f.read()
