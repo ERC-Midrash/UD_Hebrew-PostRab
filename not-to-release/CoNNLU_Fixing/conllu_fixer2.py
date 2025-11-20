@@ -8,6 +8,9 @@ from collections import defaultdict
 import re
 from collections import defaultdict
 
+ID_FIELD = 0
+HEAD_FIELD = 6
+
 class PlusNotationError(Exception):
     """Exception raised for errors in the plus notation processing."""
     pass
@@ -52,7 +55,7 @@ def process_plus_notation_sentence(lines):
 
         fields = line.split('\t')
         
-        range_match = range_pattern.match(fields[0])
+        range_match = range_pattern.match(fields[ID_FIELD])
         if range_match:
             # Collect range data
             start_base = int(range_match.group(1))
@@ -72,16 +75,16 @@ def process_plus_notation_sentence(lines):
             continue
         
         # Add this token ID to the set of all token IDs
-        token_ids.add(fields[0])
+        token_ids.add(fields[ID_FIELD])
         
-        if fields[0]:
-            match = id_pattern.match(fields[0])
+        if fields[ID_FIELD]:
+            match = id_pattern.match(fields[ID_FIELD])
             if match:
                 base, inc = int(match.group(1)), int(match.group(2) or 0)
                 increments[base] = max(increments[base], inc)
 
-        if len(fields) >= 7:
-            match = id_pattern.match(fields[6])
+        if len(fields) >= HEAD_FIELD + 1:
+            match = id_pattern.match(fields[HEAD_FIELD])
             if match:
                 base, inc = int(match.group(1)), int(match.group(2) or 0)
                 increments[base] = max(increments[base], inc)
@@ -95,7 +98,7 @@ def process_plus_notation_sentence(lines):
     for base, max_inc in increments.items():
         for i in range(1, max_inc):
             target = f"{base}+{i}"
-            if not any(target in (line.split('\t')[0], line.split('\t')[6] if len(line.split('\t')) >= 7 else '') for line in lines if not line.startswith('#')):
+            if not any(target in (line.split('\t')[ID_FIELD], line.split('\t')[HEAD_FIELD] if len(line.split('\t')) >= HEAD_FIELD + 1 else '') for line in lines if not line.startswith('#')):
                 raise PlusNotationError(f"Missing intermediate plus notation: {target}")
 
     cumulative_shifts = {}
@@ -113,25 +116,25 @@ def process_plus_notation_sentence(lines):
 
         fields = stripped.split('\t')
 
-        range_match = range_pattern.match(fields[0])
+        range_match = range_pattern.match(fields[ID_FIELD])
         if range_match:
             start_base, start_inc = int(range_match.group(1)), int(range_match.group(2) or 0)
             end_base, end_inc = int(range_match.group(3)), int(range_match.group(4) or 0)
             new_start = start_base + start_inc + cumulative_shifts.get(start_base, 0)
             new_end = end_base + end_inc + cumulative_shifts.get(end_base, 0)
-            fields[0] = f"{new_start}-{new_end}"
+            fields[ID_FIELD] = f"{new_start}-{new_end}"
             output_lines.append('\t'.join(fields))
             continue
 
-        if fields[0]:
-            base, inc = parse_id_with_plus(fields[0])
+        if fields[ID_FIELD]:
+            base, inc = parse_id_with_plus(fields[ID_FIELD])
             if isinstance(base, int):
-                fields[0] = str(base + inc + cumulative_shifts.get(base, 0))
+                fields[ID_FIELD] = str(base + inc + cumulative_shifts.get(base, 0))
 
-        if len(fields) >= 7 and ('+' in fields[6] or fields[6].isdigit()):
-            base, inc = parse_id_with_plus(fields[6])
+        if len(fields) >= HEAD_FIELD + 1 and ('+' in fields[HEAD_FIELD] or fields[HEAD_FIELD].isdigit()):
+            base, inc = parse_id_with_plus(fields[HEAD_FIELD])
             if isinstance(base, int):
-                fields[6] = str(base + inc + cumulative_shifts.get(base, 0))
+                fields[HEAD_FIELD] = str(base + inc + cumulative_shifts.get(base, 0))
 
         output_lines.append('\t'.join(fields))
 
@@ -156,8 +159,8 @@ def process_skipped_ids_sentence(lines):
             continue
 
         fields = stripped.split('\t')
-        if fields[0].isdigit():
-            token_ids.append(int(fields[0]))
+        if fields[ID_FIELD].isdigit():
+            token_ids.append(int(fields[ID_FIELD]))
 
     if not token_ids:
         return lines
@@ -179,7 +182,7 @@ def process_skipped_ids_sentence(lines):
         new_start = id_map.get(start, start - shift)
         new_end = new_start + sum(start <= i <= end for i in token_ids) - 1
         fields = line.split('\t')
-        fields[0] = f"{new_start}-{new_end}"
+        fields[ID_FIELD] = f"{new_start}-{new_end}"
         processed_ranges[start] = '\t'.join(fields)
 
     output = []
@@ -197,11 +200,11 @@ def process_skipped_ids_sentence(lines):
             continue
 
         fields = stripped.split('\t')
-        if fields[0].isdigit():
-            old_id = int(fields[0])
-            fields[0] = str(id_map.get(old_id, old_id - shift))
-            if len(fields) >= 7 and fields[6].isdigit() and int(fields[6]) > 0:
-                fields[6] = str(id_map.get(int(fields[6]), int(fields[6]) - shift))
+        if fields[ID_FIELD].isdigit():
+            old_id = int(fields[ID_FIELD])
+            fields[ID_FIELD] = str(id_map.get(old_id, old_id - shift))
+            if len(fields) >= HEAD_FIELD + 1 and fields[HEAD_FIELD].isdigit() and int(fields[HEAD_FIELD]) > 0:
+                fields[HEAD_FIELD] = str(id_map.get(int(fields[HEAD_FIELD]), int(fields[HEAD_FIELD]) - shift))
             output.append('\t'.join(fields))
         else:
             output.append(line.rstrip('\n'))
