@@ -1,2 +1,8 @@
 # Ignore all virtual environment folders
 **/.venv/
+
+# Ignore the Outputs directory in not-to-release
+not-to-release/Outputs/
+
+# Ignore pycache files
+**/__pycache__/
