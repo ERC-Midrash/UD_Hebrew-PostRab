@@ -174,6 +174,7 @@ def convert_file(input_file, output_file, log_file=None, save_htb=False):
             temp_path = temp.name
             temp.write(normalized_content)
         
+        temp_output_path = None  # Initialize to None
         try:
             # Run conllu_fixer directly
             temp_output_path = temp_path + ".fixed"
@@ -237,7 +238,7 @@ def convert_file(input_file, output_file, log_file=None, save_htb=False):
             try:
                 if os.path.exists(temp_path):
                     os.unlink(temp_path)
-                if os.path.exists(temp_output_path):
+                if temp_output_path and os.path.exists(temp_output_path):  # Check for None
                     os.unlink(temp_output_path)
             except Exception as e:
                 logger.warning(f"Failed to remove temporary file(s): {e}")
