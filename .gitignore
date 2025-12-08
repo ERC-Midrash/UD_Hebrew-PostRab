@@ -6,3 +6,6 @@ not-to-release/Outputs/
 
 # Ignore pycache files
 **/__pycache__/
+
+# Ignore files added by grew_match_quick
+**/_build_grew/
