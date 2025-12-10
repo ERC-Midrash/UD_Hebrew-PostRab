@@ -480,7 +480,7 @@
 # sent_id = 17
 # source = MiscCollection
 # text = כל שכן שלא יורה אדם להחמיר מדעתו אם לא שיביא ראיות ברורות מן הש"ס
-1	כל	כל	ADV	ADV	_	6	advmod	_	_
+1	כל	כל	DET	DET	ExtPos=ADV	6	advmod	_	_
 2-3	שכן	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
 3	כן	כן	ADV	ADV	_	1	fixed	_	_
@@ -498,7 +498,7 @@
 13	אם	אם	SCONJ	SCONJ	_	16	mark	_	_
 14	לא	לא	ADV	ADV	_	16	advmod	_	_
 15-16	שיביא	_	_	_	_	_	_	_	_
-15	ש	ש	SCONJ	SCONJ	_	13	fixed	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	dep	_	_
 16	יביא	הביא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	6	advcl	_	_
 17	ראיות	ראיה	NOUN	NOUN	Gender=Fem|Number=Plur	16	obj	_	_
 18	ברורות	ברור	ADJ	ADJ	Gender=Fem|Number=Plur	17	amod	_	_
@@ -3566,7 +3566,7 @@
 23-24	לו	_	_	_	_	_	_	_	_
 23	ל_	ל	ADP	ADP	_	24	case	_	_
 24	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	20	obl	_	_
-25	יתברך	התברך	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	23	advmod	_	_
+25	יתברך	יתברך	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	23	advmod	_	_
 26-28	כמבואר	_	_	_	_	_	_	_	_
 26	כ	כ	ADP	ADP	_	28	case	_	_
 27	ה_	ה	DET	DET	_	28	det	_	PhantomToken=Yes
@@ -5985,10 +5985,10 @@
 43-44	הדעת	_	_	_	_	_	_	_	_
 43	ה	ה	DET	DET	_	44	det	_	_
 44	דעת	דעת	NOUN	NOUN	Gender=Fem|Number=Sing	42	compound:smixut	_	_
-45	עד	עד	ADP	ADP	_	30	discourse	_	_
-46	כאן	כאן	ADV	ADV	_	45	fixed	_	_
+45	עד	עד	ADP	ADP	_	46	case	_	_
+46	כאן	כאן	ADV	ADV	_	18	parataxis	_	_
 47-49	לשונו	_	_	_	_	_	_	_	_
-47	לשון_	לשון	NOUN	NOUN	Gender=Fem|Number=Sing	45	fixed	_	_
+47	לשון_	לשון	NOUN	NOUN	Gender=Fem|Number=Sing	46	nsubj:cop	_	_
 48	_של_	של	ADP	ADP	_	49	case	_	PhantomToken=Yes
 49	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	47	nmod:poss	_	_
 
@@ -6649,7 +6649,7 @@
 3	כש	כש	SCONJ	SCONJ	_	4	mark	_	_
 4	תזרע_	זרע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	9	advcl	_	_
 5	_את_	את	ADP	ADP	_	6	case	_	PhantomToken=Yes
-6	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	4	obj	_	_
+6	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3	4	iobj	_	_
 7	מיני	מין	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
 8	זרעים	זרע	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
 9	תצמיח	הצמיח	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
@@ -7162,7 +7162,7 @@
 11	ה_	ה	DET	DET	_	12	det	_	PhantomToken=Yes
 12	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
 13	י"א	י"א	NUM	NUM	_	14	nummod	_	_
-14	אמה	אמה	NOUN	NOUN	Gender=Fem|Number=Sing	9	advmod	_	_
+14	אמה	אמה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl:unmarked	_	_
 
 # sent_id = 171
 # source = רשי_לתורה
@@ -7802,8 +7802,8 @@
 2	פשוט_	פשוט	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj:outer	_	_
 3	_של_	של	ADP	ADP	_	4	case	_	PhantomToken=Yes
 4	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	2	nmod:poss	_	_
-5	הנה	הנה	INTJ	INTJ	_	7	mark	_	_
-6	נא	נא	INTJ	INTJ	_	7	advmod	_	_
+5	הנה	הנה	ADV	ADV	_	7	advmod	_	_
+6	נא	נא	ADV	ADV	_	7	advmod	_	_
 7	הגיעה	הגיע	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8-9	השעה	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	_	9	det	_	_
@@ -7901,10 +7901,10 @@
 # source = רשי_לתורה
 # text = בכל אשר תשב אני לא אתרחק ממך ואעמוד לך למגן ולעזר
 1-2	בכל	_	_	_	_	_	_	_	_
-1	ב	ב	ADP	ADP	_	3	case	_	_
-2	כל	כל	DET	DET	_	3	det	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	כל	כל	NOUN	NOUN	_	7	obl	_	_
 3	אשר	אשר	SCONJ	SCONJ	_	4	mark	_	_
-4	תשב	ישב	VERB	VERB	Gender=Masc|Number=Sing|Person=2|Tense=Fut	7	advcl	_	_
+4	תשב	ישב	VERB	VERB	Gender=Masc|Number=Sing|Person=2|Tense=Fut	2	acl:relcl	_	_
 5	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	7	nsubj	_	_
 6	לא	לא	ADV	ADV	_	7	advmod	_	_
 7	אתרחק	התרחק	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Fut	0	root	_	_
@@ -9854,7 +9854,7 @@
 11	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	9	nmod:poss	_	_
 12	או	או	CCONJ	CCONJ	_	13	cc	_	_
 13	מלוה	מלווה	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
-14	על	על	ADP	ADP	_	13	advmod	_	_
+14	על	על	ADP	ADP	ExtPos=ADV	13	advmod	_	_
 15	פה	פה	NOUN	NOUN	Gender=Masc|Number=Sing	14	fixed	_	_
 16	מותר	מותר	ADJ	ADJ	_	0	root	_	_
 17-19	למכרם	_	_	_	_	_	_	_	_
@@ -10514,7 +10514,7 @@
 10-11	ששוה	_	_	_	_	_	_	_	_
 10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
 11	שוה	שווה	ADJ	ADJ	Gender=Masc|Number=Sing	8	acl:relcl	_	_
-12	דינר	דינר	NOUN	NOUN	Gender=Masc|Number=Sing	11	advmod	_	_
+12	דינר	דינר	NOUN	NOUN	Gender=Masc|Number=Sing	11	xcomp	_	_
 13-14	ואני	_	_	_	_	_	_	_	_
 13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
 14	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1	15	nsubj	_	_
@@ -10530,7 +10530,7 @@
 22-23	ששוה	_	_	_	_	_	_	_	_
 22	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
 23	שוה	שווה	ADJ	ADJ	Gender=Masc|Number=Sing	21	acl:relcl	_	_
-24	שתים	שתיים	NUM	NUM	Gender=Fem|Number=Dual	23	advmod	_	_
+24	שתים	שתיים	NUM	NUM	Gender=Fem|Number=Dual	23	xcomp	_	_
 
 # sent_id = 272
 # source = שולחן_ערוך
@@ -11049,7 +11049,7 @@
 4	אשה_	אשה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
 5	_של_	של	ADP	ADP	_	6	case	_	PhantomToken=Yes
 6	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	4	nmod:poss	_	_
-7	נדר	נדר	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+7	נדר	נדר	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl:unmarked	_	_
 8-9	שהוא	_	_	_	_	_	_	_	_
 8	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
 9	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
@@ -11296,14 +11296,14 @@
 18	מלאכה_	מלאכה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
 19	_של_	של	ADP	ADP	_	20	case	_	PhantomToken=Yes
 20	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3	18	nmod:poss	_	_
-21	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	16	advmod	_	_
+21	פעמים	פעם	ADV	ADV	Gender=Fem|Number=Plur	23	advmod	_	_
 22-23	בכיסוי	_	_	_	_	_	_	_	_
 22	ב	ב	ADP	ADP	_	23	case	_	_
-23	כיסוי	כיסוי	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+23	כיסוי	כיסוי	NOUN	NOUN	Gender=Masc|Number=Sing	6	appos	_	_
 24-25	הראש	_	_	_	_	_	_	_	_
 24	ה	ה	DET	DET	_	25	det	_	_
 25	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
-26	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	21	conj	_	_
+26	פעמים	פעם	ADV	ADV	Gender=Fem|Number=Plur	28	advmod	_	_
 27-28	בגילוי	_	_	_	_	_	_	_	_
 27	ב	ב	ADP	ADP	_	28	case	_	_
 28	גילוי	גילוי	NOUN	NOUN	Gender=Masc|Number=Sing	23	conj	_	_
@@ -12675,7 +12675,7 @@
 38	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
 39	אין	אין	ADV	ADV	_	40	advmod	_	_
 40	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	30	conj	_	_
-41	י'	י	NUM	NUM	_	40	appos	_	_
+41	י'	י	NUM	NUM	_	40	obl:unmarked	_	_
 42-43	ואין	_	_	_	_	_	_	_	_
 42	ו	ו	CCONJ	CCONJ	_	43	cc	_	_
 43	אין	אין	VERB	VERB	_	30	conj	_	_
